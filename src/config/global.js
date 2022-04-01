@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Scrum, descripciones y características',
+    descripcionCurso:
+      'Con el estudio de este componente, el aprendiz cualificará su participación en equipos de trabajo en el marco del desarrollo de software con la metodología Scrum. Se afianzará en agilidad y entrega de productos en iteraciones cortas de tiempo, simplificación de labores, roles Scrum, uso de artefactos Scrum y sabrá dar cuenta de los aspectos teóricos y conceptuales esta metodología.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -22,37 +23,35 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Hoja de vida ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis según lineamientos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Validación de información',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Referentes de evaluación ',
         desarrolloContenidos: true,
       },
     ],
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -88,34 +87,64 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
-    },
-  ],  
-  glosario: [
-    {
-      termino: 'Término',
-      significado: 'Definición',
-    },
-    {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
-    },
-  ],  
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'AGUILAR, W. C. V. (1992). Hoja de vida (Tesis doctoral, Universidad Nacional Jorge Basadre Grohmann).',
+    },
+    {
+      referencia:
+        'Cubillos Rueda, J. C. (2020). Análisis de requerimientos, Diseño Frontend y de base de datos del aplicativo web, para el control de las hojas de vida de los graduados en las Unidades Tecnológicas de Santander.',
+    },
+    {
+      referencia:
+        'David, C. P. E., & Jeancarlos, P. C. (2019). Desarrollo de un aplicativo Android que genere un repositorio de hojas de vida para aspirantes a puestos vacantes en el centro estético millennials (Tesis doctoral, Instituto superior tecnológico de Guayaquil).',
+      link: 'http://dspace.itsgg.edu.ec:8080/jspui/handle/123456789/32',
+    },
+    {
+      referencia:
+        'Ojeda-Avellaneda, A. C., Torres-Lizarazo, D. F., & Monsalve-Flórez, J. A. (2021). Conceptualización de la Hoja de vida de lector como instrumento de evaluación formativa en la educación superior. Entramado, 17(1), 150-167.',
+    },
+    {
+      referencia:
+        'REAL ACADEMIA ESPAÑOLA. (2021) Diccionario de la lengua española, 23.ª ed.',
+      link: 'https://dle.rae.es',
+    },
+  ],
+  glosario: [
+    {
+      termino: 'Informe',
+      significado:
+        'Exposición oral o escrita sobre el estado de una cosa o de una persona, sobre las circunstancias que rodean un hecho, etc.',
+    },
+    {
+      termino: 'Hoja de vida ',
+      significado:
+        'Es la carta de presentación del aspirante y una herramienta para acceder a una entrevista de trabajo.',
+    },
+    {
+      termino: 'Plataformas',
+      significado:
+        'Entorno informático determinado, que utiliza sistemas compatibles entre sí.',
+    },
+    {
+      termino: 'Repositorio',
+      significado:
+        'Sitio centralizado <em>(web)</em> donde se almacena y se preserva información digital, habitualmente bases de datos o archivos informáticos.',
+    },
+  ],
+  complementario: [
+    {
+      texto:
+        'Cubillos Rueda, J. C. (2020). Análisis de requerimientos, Diseño Frontend y de base de datos del aplicativo web, para el control de las hojas de vida de los graduados en las Unidades Tecnologicas de Santander.',
+      tipo: 'Documento',
+      link: 'http://repositorio.uts.edu.co:8080/xmlui/handle/123456789/3979',
+    },
+    {
+      texto:
+        'David, C. P. E., & Jeancarlos, P. C. (2019). Desarrollo de un aplicativo Android que genere un repositorio de hojas de vida para aspirantes a puestos vacantes en el centro estético millennials (Tesis doctoral, Instituto superior tecnológico de Guayaquil).',
+      tipo: 'Documento',
+      link: 'http://dspace.itsgg.edu.ec:8080/jspui/handle/123456789/32',
     },
   ],
   creditos: {
@@ -142,25 +171,55 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Marcela Alarcon Granados',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Carlos Andrés Díaz Pinto',
+        cargo: 'Desarrollo Front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -170,17 +229,17 @@ export default {
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },
