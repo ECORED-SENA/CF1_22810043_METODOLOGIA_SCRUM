@@ -16,8 +16,26 @@
       .col.col-12.col-lg-4.position-relative
         picture
           img(src='@/assets/curso/tema1/vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
+    br 
+    .tarjeta.p-2.col-12.pos12.gris
+      SlyderA(tipo="b")
+        img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen')
+        
+        img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen')
 
-    
+        img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
+
+        img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
+
+    .row.justify-content-center.align-items-center.mt-5      
+      .col-lg-10(data-aos="fade-down")
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
+          .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.jpg')})`}")
+          .bloque-texto-g__texto.p-4
+            p(data-aos="fade-down").mb-0 La metodología Scrum, por definición, es el proceso donde se aplican buenas prácticas, trabajando colaborativamente. Con ella se logra el desarrollo del proyecto por medio de fases o etapas en las que no se avanza si no se termina la fase en la que se está trabajando. 
+
+    .row.til
+      p Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
 
 </template>
 
