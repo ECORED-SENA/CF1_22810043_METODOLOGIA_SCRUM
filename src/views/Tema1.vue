@@ -36,6 +36,60 @@
 
     .row.til
       p Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
+    br
+    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/vec2.svg', alt='Texto que describa la imagen')
+      .tarjeta.bg-amarillo-claro.p-3(x="3.8%" y="64%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p <b>1. Transparencia</b>  
+          p Todos los aspectos del proyecto deben ser completamente conocidos por cada uno de sus integrantes, debe lograrse la misma percepción de todos, de forma clara y precisa.
+   
+      .tarjeta.bg-amarillo-claro.p-3(x="36.4%" y="94.2%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p  <b>2. Inspección</b>  
+          p Los procesos son guiados hacia un objetivo y cada participante debe estar autoevaluando, de acuerdo con sus resultados y el proceso mismo, detectando posibles desviaciones con rapidez.
+           
+      .tarjeta.bg-amarillo-claro.p-3(x="96.4%" y="74%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p  <b>3. Adaptación</b> 
+          p Al lograr identificar una desviación, se deben adaptar mediante acciones que ayuden a la corrección o reconfigurar el objetivo.  
+    br
+    .row.til
+      p Scrum se basa en procesos de mejora continua, apoyándose en el ciclo Deming, así:
+    br
+    br
+    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
+      .tarjeta.bg-amarillo-claro.p-3(x="34.5%" y="20.5%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p <b>Plan, planifica:</b> ¿qué hacer?, ¿cómo hacerlo?
+   
+      .tarjeta.bg-amarillo-claro.p-3(x="73.5%" y="20.5%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p  <b>Do, ejecuta:</b> realizar lo planificado.
+           
+      .tarjeta.bg-amarillo-claro.p-3(x="33%" y="86%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p  <b>Check, comprueba:</b> ¿se pudo actuar frente a lo planeado? 
+    
+      .tarjeta.bg-amarillo-claro.p-3(x="72.5%" y="86%" numero="")
+        .texto-seis-alt.color-acento-botones
+          p  <b>Act (actúa):</b> ¿cómo mejoramos para el siguiente ciclo?  
+    br
+    .col-3.pos12
+      picture
+        img(src='@/assets/curso/tema1/importante.svg', alt='Ubicación de mercancía', class='img-fluid')
+    separador
+
+    #t_1_1.titulo-segundo.color-acento-contenido
+      h2 1.1.	Premisas Scrum
+
+
+
 
 </template>
 
