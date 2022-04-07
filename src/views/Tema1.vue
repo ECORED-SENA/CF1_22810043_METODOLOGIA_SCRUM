@@ -88,6 +88,18 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1.	Premisas Scrum
 
+    br
+    .row.align-items-center.justify-content-center.fondo-7.p-4
+      .col-lg-8.ofVisible
+        p.mb-5.small.text La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
+        span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
+      .col-lg-4.lg-0
+        figure
+          img(src='@/assets/curso/tema1/vec4.svg' alt='' style="width:293px; display:block; margin:1rem 0;")
+    
+    .row.til
+      p  A su vez, los valores de la metodología Scrum, son:
+    br
 
 
 
