@@ -82,8 +82,8 @@
         img(src='@/assets/curso/tema1/importante.svg', alt='Ubicación de mercancía', class='img-fluid')
     separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido
-      h2 1.1.	Premisas Scrum
+    .titulo-segundo.color-acento-contenido#t_1_1
+      h2 1.1.	Premisas Scrum 
 
     
     .row.align-items-center.justify-content-center.fondo-7.p-4.mb-5
@@ -138,7 +138,7 @@
     separador
 
 
-    #t_1_2.titulo-segundo.color-acento-contenido
+    #t_1_2.titulo-segundo.color-acento-contenido.mb-4
       h2 1.2.	Premisas Scrum
 
     .row.mb-5
@@ -151,7 +151,22 @@
           p De igual forma, existen unidades que suelen ser muy complejas para individualizarlas o demasiado simples para tratarlas como grandes descripciones de un proyecto. Se debe, entonces, iniciar siempre desde las más sencillas y avanzar hasta las más complejas.
         p Las siguientes son las entidades concebidas desde la metodología Scrum; aquí es importante tener presente que se deben jerarquizar los niveles para solucionar las incertidumbres:
       
-    
+    ImagenInfografica.color-acento-botones.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/template/vec1.svg', alt='Texto que describa la imagen')
+
+      .tarjeta.color-acento-contenido.p-3(x="16.8%" y="70.1%" numero="+")
+          .h5.mb-2 Tareas
+          p Es un trabajo concreto, realizado por una persona, con límite de días, lenguaje técnico del trabajo.
+
+      .tarjeta.color-acento-contenido.p-3(x="34.4%" y="26.2%" numero="+")
+          .h5.mb-2 Historias de usuario
+          p Es donde se define el lenguaje del negocio que hace el <i>product owner (PO)</i> de los requisitos o necesidades para realizar el trabajo. Estos requisitos se desintegran en unidades más pequeñas para ejecutarlas.
+
+      .tarjeta.color-acento-contenido.p-3(x="80.2%" y="59.5%" numero="+")
+          .h5.mb-2 Épicas
+          p Es la agrupación de historias de usuario que construyen grandes bloques operativos para realizar junto al proyecto. 
 
 
 
