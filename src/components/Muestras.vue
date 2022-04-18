@@ -395,7 +395,7 @@ div
               i.fas.fa-hat-wizard
               | Item lista no ordenada
         li 
-          i.fas.fa-hippo
+          i.fas.fa-pe
           | Item lista no ordenada
         li 
           i.fas.fa-kiwi-bird
