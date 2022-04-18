@@ -7,6 +7,16 @@
         span 2
       h1  Ciclo de vida Scrum      
    
+
+
+
+
+
+
+
+
+
+   
 </template>
 
 <script>

@@ -86,14 +86,14 @@
       h2 1.1.	Premisas Scrum 
 
     
-    .row.align-items-center.justify-content-center.fondo-7.p-4.mb-5
-      .col-lg-8.ofVisible
-        p.mb-5.small.text La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
+    .row.p-4.mb-5.fondo-7.align-items-center.justify-content-center
+      .col-lg-8
+        p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
         span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
-      .col-lg-4.lg-0
+      .col-lg-4
         figure
           img(src='@/assets/curso/tema1/vec4.svg' alt='' style="width:293px; display:block; margin:1rem 0;")
-    
+      
     .row.til.mb-5
       p  A su vez, los valores de la metodología Scrum, son:
     
@@ -168,8 +168,9 @@
           .h5.mb-2 Épicas
           p Es la agrupación de historias de usuario que construyen grandes bloques operativos para realizar junto al proyecto. 
 
-
-
+    SlyderB.mb-5(:datos="datosSlyder")
+    separador
+    
 </template>
 
 <script>
@@ -177,7 +178,25 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Velocidad',
+        texto: 'Define la capacidad del equipo para ejecutar las actividades.',
+        imagen: require('@/assets/curso/tema1/slyder1.jpg'),
+      },
+      {
+        titulo: 'Herramientas',
+        texto:
+          'Existen diferentes tipos de herramientas según el tipo de proyecto. Las más utilizadas son el uso de paneles con etiquetas adhesivas o post-it. Por lo general, se utiliza el <i>backlog</i>.',
+        imagen: require('@/assets/curso/tema1/slyder2.jpg'),
+      },
+      {
+        titulo: 'Entorno de trabajo',
+        texto:
+          'Se debe dar gran importancia a la comunicación y a la difusión de la información, seguido de la colaboración y el entendimiento básico de los aspectos o tareas de trabajo.',
+        imagen: require('@/assets/curso/tema1/slyder3.jpg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
