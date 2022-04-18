@@ -131,10 +131,29 @@
             
     p.mb-5 En el siguiente recurso didáctico, se conocerá y profundizará en las premisas que configuran la metodología Scrum; se debe prestar mucha atención y llevar registro de lo más destacado en la libreta personal de apuntes:
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-md-12
         .video
           iframe(width="942" height="530" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    separador
+
+
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2.	Premisas Scrum
+
+    .row.mb-5
+      .col.col-12.col-lg-6.position-relative
+        picture
+          img(src='@/assets/curso/tema1/img1.png', alt='Scrum', class='img-fluid')
+      .col.col-12.col-lg-6
+        p.mb-4 Los conceptos y las entidades ayudan a plantear la forma de trabajo en Scrum. Para lograr trabajar de manera adecuada en esta metodología, se pueden identificar las unidades, que son las llamadas historias de usuario o <i>user stories</i>.
+        .cajon.color-primario.p-4.mb-4.col-11.esp2(style='background-color: #F0F1F5')
+          p De igual forma, existen unidades que suelen ser muy complejas para individualizarlas o demasiado simples para tratarlas como grandes descripciones de un proyecto. Se debe, entonces, iniciar siempre desde las más sencillas y avanzar hasta las más complejas.
+        p Las siguientes son las entidades concebidas desde la metodología Scrum; aquí es importante tener presente que se deben jerarquizar los niveles para solucionar las incertidumbres:
+      
+    
+
+
 
 </template>
 
