@@ -16,8 +16,8 @@
       .col.col-12.col-lg-4.position-relative
         picture
           img(src='@/assets/curso/tema1/vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
-    br 
-    .tarjeta.p-2.col-12.pos12.gris
+    
+    .tarjeta.p-2.col-12.pos12.gris.mb-5
       SlyderA(tipo="b")
         img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen')
         
@@ -27,17 +27,16 @@
 
         img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
 
-    .row.justify-content-center.align-items-center.mt-5      
+    .row.justify-content-center.align-items-center.mt-5.mb-5      
       .col-lg-10(data-aos="fade-down")
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
           .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img1.jpg')})`}")
           .bloque-texto-g__texto.p-4
             p(data-aos="fade-down").mb-0 La metodología Scrum, por definición, es el proceso donde se aplican buenas prácticas, trabajando colaborativamente. Con ella se logra el desarrollo del proyecto por medio de fases o etapas en las que no se avanza si no se termina la fase en la que se está trabajando. 
 
-    .row.til
-      p Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
-    br
-    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12
+    p.til.mb-5 Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
+    
+    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/vec2.svg', alt='Texto que describa la imagen')
@@ -55,12 +54,10 @@
         .texto-seis-alt.color-acento-botones
           p  <b>3. Adaptación</b> 
           p Al lograr identificar una desviación, se deben adaptar mediante acciones que ayuden a la corrección o reconfigurar el objetivo.  
-    br
-    .row.til
-      p Scrum se basa en procesos de mejora continua, apoyándose en el ciclo Deming, así:
-    br
-    br
-    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12
+    
+    p.til.mb-5 Scrum se basa en procesos de mejora continua, apoyándose en el ciclo Deming, así:
+    
+    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
@@ -79,8 +76,8 @@
       .tarjeta.bg-amarillo-claro.p-3(x="72.5%" y="86%" numero="")
         .texto-seis-alt.color-acento-botones
           p  <b>Act (actúa):</b> ¿cómo mejoramos para el siguiente ciclo?  
-    br
-    .col-3.pos12
+    
+    .col-3.pos12.mb-5
       picture
         img(src='@/assets/curso/tema1/importante.svg', alt='Ubicación de mercancía', class='img-fluid')
     separador
@@ -88,8 +85,8 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1.	Premisas Scrum
 
-    br
-    .row.align-items-center.justify-content-center.fondo-7.p-4
+    
+    .row.align-items-center.justify-content-center.fondo-7.p-4.mb-5
       .col-lg-8.ofVisible
         p.mb-5.small.text La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
         span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
@@ -97,11 +94,47 @@
         figure
           img(src='@/assets/curso/tema1/vec4.svg' alt='' style="width:293px; display:block; margin:1rem 0;")
     
-    .row.til
+    .row.til.mb-5
       p  A su vez, los valores de la metodología Scrum, son:
-    br
+    
 
+    .row.mb-4
+      .col-md-3.col-lg.mb-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop' style="width: 90px")
+          .tarjeta.bg-secundario
+            h3.text-center.m-5 Enfoque
 
+      .col-md-3.col-lg.mb-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop' style="width: 90px")
+          .tarjeta.bg-color-primario
+            h3.text-center.m-5 Compromiso
+
+      .col-md-3.col-lg.mb-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop' style="width: 90px")
+          .tarjeta.bg-secundario
+            h3.text-center.m-5 Coraje
+
+      .col-md-3.col-lg.mb-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_4.svg' alt='AvatarTop' style="width: 90px")
+          .tarjeta.bg-color-primario
+            h3.text-center.m-5 Respeto
+
+      .col-md-3.col-lg.mb-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_5.svg' alt='AvatarTop' style="width: 90px")
+          .tarjeta.bg-secundario.p-4
+            h3.text-center.m-4 Organización abierta.
+            
+    p.mb-5 En el siguiente recurso didáctico, se conocerá y profundizará en las premisas que configuran la metodología Scrum; se debe prestar mucha atención y llevar registro de lo más destacado en la libreta personal de apuntes:
+
+    .row.justify-content-center.mb-4
+      .col-md-12
+        .video
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
