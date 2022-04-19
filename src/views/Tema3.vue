@@ -42,6 +42,17 @@
           .tarjeta.bg-secundario
             p.text-center.m-3 <b>Stakeholders</b> los usuarios clave.
             
+    p.mb-4 A continuación, se detallan las especificidades de cada rol dentro de la metodología Scrum; se deben identificar las características, particularidades y generalidades de cada uno y su correlación con los demás roles:
+    
+    figure.mb-5(data-aos="zoom-in-up")
+      .video
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
+    .col-3.pos12.mb-5
+      picture
+        img(src='@/assets/curso/tema3/importante.svg', alt='Ubicación de mercancía', class='img-fluid')
+
+
 </template>
 
 <script>
