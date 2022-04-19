@@ -118,10 +118,42 @@
       .col-lg-5  
         img(src='@/assets/curso/tema2/lineadetiempo.png')(data-aos="fade-up")
 
-
     p.mb-5 Ahora, se invita a conocer otros aspectos importantes del ciclo de vida Scrum y profundizar en ellos:
 
+    ImagenInfografica.color-acento-botones.col-lg-10.mb-5.center
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen')
 
+      .tarjeta.color-acento-contenido.p-3(x="19.7%" y="9.8%" numero="+")
+          .h5.mb-2 <i>Daily meetings</i> o reuniones diarias
+          p Para cada <i>sprint</i>, <b><i>el scrum team</i></b> extrae las historias de usuario en tareas, y mientras dure el <i>sprint</i> se llevarán reuniones diarias <b><i>(daily meetings)</i></b>, en las cuales el equipo se sincroniza y avanza construyendo tareas. 
+
+      .tarjeta.color-acento-contenido.p-3(x="65.5%" y="3%" numero="+")
+          .h5.mb-2 Finalización del <i>sprint</i>
+          p El proceso finaliza con una reunión de presentación de los resultados al usuario (<b><i>sprint review</i></b>) que aceptará o no el producto.
+
+      .tarjeta.color-acento-contenido.p-3(x="97%" y="32.4%" numero="+")
+          .h5.mb-2 Retrospectiva o <i>Scrum retrospective</i>
+          p Luego, el <b><i>development team</i></b> (equipo de desarrollo) y el <b><i>Scrum master</i></b> (entrenador o facilitador), se reúnen; la intención de esta reunión se conoce como <b><i>Scrum retrospective</i></b> y en ella se busca identificar mejoras en los procesos internos e iniciar, de nuevo, con un <i>sprint</i>.
+      
+      .tarjeta.color-acento-contenido.p-3(x="91.5%" y="73.7%" numero="+")
+          .h5.mb-2 Realizar, ordenar, priorizar, documentar
+          p Para lograr identificar las grandes divisiones del trabajo por desarrollar en un proyecto, se debe realizar, ordenar priorizar y documentar. En el desarrollo de los métodos tradicionales se comete el error de confiar en que no habrá cambios, estructuras o requisitos nuevos. 
+      
+      .tarjeta.color-acento-contenido.p-3(x="62%" y="97%" numero="+")
+          .h5.mb-2 Product backlog / potencialidad de Scrum
+          p Con la potencialidad que representa Scrum, se elaboran las nuevas peticiones o requisitos de manera flexible, configurable y dinámica, denominada en este caso como <b><i>Product Backlog (PB)</i></b>. 
+      
+      .tarjeta.color-acento-contenido.p-3(x="17.4%" y="86%" numero="+")
+          .h5.mb-2 Inicio del ciclo de vida
+          p El ciclo de vida de un proyecto Scrum, inicia cuando el <b><i>Product Owner (PO)</i></b>, crea e informa sobre el <b><i>Product Backlog (PB)</i></b>. 
+      
+      .tarjeta.color-acento-contenido.p-3(x="2.9%" y="45.7%" numero="+")
+          .h5.mb-2 Configuración del product backlog
+          p El <b><i>Product Backlog (PB)</i></b> se forma por las historias de usuario definidas que ayudan a identificar, de manera clara y precisa, la funcionalidad que se requiere para el producto. 
+
+    separador
 
 
 
