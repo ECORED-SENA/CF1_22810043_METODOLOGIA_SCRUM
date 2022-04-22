@@ -74,6 +74,16 @@
     width: auto
     padding: 15px
     
+.tarjeta-avatar > img 
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+
+    
 .bg-secundario
   background-color: #B9CAF9
 
@@ -83,6 +93,53 @@
 .bg-color-primario2
   background-color: #F0F1F5
 
+.custom_box_left   
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background: linear-gradient(97deg, rgba(255,255,255,1) 16%, rgba(232,232,232,1) 58%)
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -50%
+    width: 20%
+    height: 100%
+    background: linear-gradient(97deg, rgba(255,255,255,1) 16%, rgba(232,232,232,1) 58%)
+    z-index: 0
+.onTop
+  position: relative
+  z-index: 10
+.custom_box_left-2   
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background: #FFFFFF
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -50%
+    width: 20%
+    height: 100%
+    background: #FFFFFF
+    z-index: 0
+.custom_box_rigth 
+  position: relative 
+  padding: 2.5rem 1.5rem 
+  background: linear-gradient(97deg, rgba(232,232,232,1) 56%, rgba(255,255,255,1) 97%)
+  p
+    position: relative 
+  &:before 
+    content: ""
+    position: absolute
+    top: 0
+    left: -50%
+    width: 20%
+    height: 100%
+    background: linear-gradient(97deg, rgba(232,232,232,1) 56%, rgba(255,255,255,1) 97%)
 
 // Tema 2
   

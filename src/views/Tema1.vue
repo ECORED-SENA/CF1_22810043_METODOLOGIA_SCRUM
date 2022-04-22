@@ -85,49 +85,52 @@
     .titulo-segundo.color-acento-contenido#t_1_1
       h2 1.1.	Premisas Scrum 
 
-    
-    .row.p-4.mb-5.fondo-7.align-items-center.justify-content-center
-      .col-lg-8
-        p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
-        span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/tema1/vec4.svg' alt='' style="width:293px; display:block; margin:1rem 0;")
-      
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg.order-2.order-lg-1
+        .custom_box_rigth 
+          p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
+          span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
+      .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1
+        img(src="@/assets/curso/tema1/vec4.svg" alt='AvatarTop', style="width:330px; display:block; margin:-6rem -1rem;").m-auto
+
     .row.til.mb-5
       p  A su vez, los valores de la metodología Scrum, son:
-    
 
-    .row.mb-4
-      .col-md-3.col-lg.mb-5
+    .row.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop' style="width: 90px")
-          .tarjeta.bg-secundario
-            h3.text-center.m-5 Enfoque
+          img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop')
+          .tarjeta.bg-secundario.w-100
+            .text-white.text-center.p-2.mt-3.text-system
+              h4 Enfoque
 
-      .col-md-3.col-lg.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop' style="width: 90px")
-          .tarjeta.bg-color-primario
-            h3.text-center.m-5 Compromiso
+          img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop')
+          .tarjeta.bg-color-primario.w-100
+            .text-white.text-center.p-2.mt-3.text-system
+              h4 Compromiso
 
-      .col-md-3.col-lg.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop' style="width: 90px")
-          .tarjeta.bg-secundario
-            h3.text-center.m-5 Coraje
+          img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop')
+          .tarjeta.bg-secundario.w-100
+            .text-white.text-center.p-2.mt-3.text-system
+              h4 Coraje
 
-      .col-md-3.col-lg.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_4.svg' alt='AvatarTop' style="width: 90px")
-          .tarjeta.bg-color-primario
-            h3.text-center.m-5 Respeto
+          img(src='@/assets/curso/tema1/img_4.svg' alt='AvatarTop')
+          .tarjeta.bg-color-primario.w-100
+            .text-white.text-center.p-2.mt-3.text-system
+              h4 Respeto
 
-      .col-md-3.col-lg.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_5.svg' alt='AvatarTop' style="width: 90px")
-          .tarjeta.bg-secundario.p-4
-            h3.text-center.m-4 Organización abierta.
+          img(src='@/assets/curso/tema1/img_5.svg' alt='AvatarTop')
+          .tarjeta.bg-secundario.w-100
+            .text-white.text-center.p-2.mt-3.text-system
+              h4 Organización abierta
             
     p.mb-5 En el siguiente recurso didáctico, se conocerá y profundizará en las premisas que configuran la metodología Scrum; se debe prestar mucha atención y llevar registro de lo más destacado en la libreta personal de apuntes:
 

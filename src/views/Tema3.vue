@@ -6,14 +6,14 @@
       .titulo-principal__numero
         span 3
       h1 Roles 
-
-    .row.p-4.mb-5.fondo-8.align-items-center.justify-content-center
-      .col-lg-4
-        figure
-          img(src='@/assets/curso/tema1/vec4.svg' alt='' style="width:293px; display:block; margin:1rem 0;")
-      .col-lg-8
-        p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
-        span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
+      
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg.order-1.order-lg-2
+        .custom_box_left 
+          p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
+          span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
+      .col-auto.mb-5.mb-lg-1.onTop.order-2.order-lg-1
+        img(src='@/assets/curso/tema1/vec4.svg' alt='AvatarTop', style="width:383px; display:block; margin:1rem 0;").m-auto
       
     p.mb-4.text-center Los roles destacados en Scrum son:
 
@@ -48,7 +48,7 @@
       .video
         iframe(width="942" height="530" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
-    .col-3.pos12.mb-5
+    .col-6.col-md-3.pos12.mb-5
       picture
         img(src='@/assets/curso/tema3/importante.svg', alt='Ubicación de mercancía', class='img-fluid')
 
