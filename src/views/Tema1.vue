@@ -134,35 +134,35 @@
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop')
           .tarjeta.bg-secundario.w-100
-            .text-white.text-center.p-2.mt-3.text-system
+            .text-center.p-2.mt-3.text-system
               h4 Enfoque
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop')
           .tarjeta.bg-color-primario.w-100
-            .text-white.text-center.p-2.mt-3.text-system
+            .text-center.p-2.mt-3.text-system
               h4 Compromiso
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop')
           .tarjeta.bg-secundario.w-100
-            .text-white.text-center.p-2.mt-3.text-system
+            .text-center.p-2.mt-3.text-system
               h4 Coraje
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img_4.svg' alt='AvatarTop')
           .tarjeta.bg-color-primario.w-100
-            .text-white.text-center.p-2.mt-3.text-system
+            .text-center.p-2.mt-3.text-system
               h4 Respeto
 
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img_5.svg' alt='AvatarTop')
           .tarjeta.bg-secundario.w-100
-            .text-white.text-center.p-2.mt-3.text-system
+            .text-center.p-2.mt-3.text-system
               h4 Organización abierta
             
     p.mb-5 En el siguiente recurso didáctico, se conocerá y profundizará en las premisas que configuran la metodología Scrum; se debe prestar mucha atención y llevar registro de lo más destacado en la libreta personal de apuntes:
