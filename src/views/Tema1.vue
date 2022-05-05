@@ -10,22 +10,50 @@
     .row.mb-5
       .col.col-12.col-lg-8.pt-5
         p Hablar de Scrum es referirse a una metodología de trabajo en equipo, que ayuda a delegar responsabilidades dentro de un proyecto, para lograr su ejecución y desarrollo de manera pertinente, acertada y rápida; ello, abrirá paso al logro de objetivos a corto tiempo.
-        .cajon.color-secundario.bg-3-claro.p-4.mb-4.col-11.esp2
+        .cajon.color-secundario.bg-3-claro.p-4.mb-4.col-12
           p La Petición es demandar, pedir o solicitar algo que se requiere o se necesita, la petición se eleva ante una persona sea natural o jurídica, el proceso de petición hace referencia a dudas que se tiene de un procedimiento en alguna de sus etapas de ejecución, un cuestionamiento sobre algún paso o proceso no entendido. 
         p Ahora se presentan algunos aspectos clave de la definición y configuración de la metodología Scrum; aquí es importante hacer uso de la libreta personal de apuntes para registrar datos importantes.
       .col.col-12.col-lg-4.position-relative
         picture
           img(src='@/assets/curso/tema1/vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
     
-    .tarjeta.p-2.col-12.pos12.gris.mb-5
+    .tarjeta.col-md-12.col-10.pos12.gris.mb-5
       SlyderA(tipo="b")
-        img(src='@/assets/curso/tema1/img1.svg', alt='Texto que describa la imagen')
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/tema1/1.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
         
-        img(src='@/assets/curso/tema1/img2.svg', alt='Texto que describa la imagen')
-
-        img(src='@/assets/curso/tema1/img3.svg', alt='Texto que describa la imagen')
-
-        img(src='@/assets/curso/tema1/img4.svg', alt='Texto que describa la imagen')
+          .col-lg-7.align-items-center
+            h5.aling-1 Origen del término
+              p.mt-3 Hace referencia, en castellano, a decir “melé”, referenciando una formación característica del rugby o fútbol americano.
+          
+        .row.fondo-slyder_2
+          .col-lg-7.align-items-center
+            h5.aling-1 Concentración de esfuerzos humanos
+              p.mt-3 En este tipo de formación el equipo aúna esfuerzos humanos con el objetivo de tener la pelota. Scrum, es una buena declaración para realizar trabajo en equipo, es un marco de trabajo para la gestión de proyectos.
+          
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
+        
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/tema1/3.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
+        
+          .col-lg-7.align-items-center
+            h5.aling-1 Organización y articulación
+              p.mt-3 Scrum planea la forma de organizarse, laborar y obtener resultados, proponiendo un buen rendimiento del trabajo en equipo, definiendo responsabilidades, laborando con herramientas para la mejora continua y trabajo de calidad.
+          
+        .row.fondo-slyder_2
+          .col-lg-7.align-items-center
+            h5.aling-1 Proyectos de desarrollo de software
+              p.mt-3 Scrum se trata de un marco de trabajo para desarrollo ágil de software, aunque actualmente esta metodología se expande a otras áreas, dada su eficacia, facilidad de aplicación y utilidad práctica. 
+          
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/tema1/2.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
 
     .row.justify-content-center.align-items-center.mt-5.mb-5      
       .col-lg-10(data-aos="fade-down")
@@ -40,20 +68,17 @@
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/vec2.svg', alt='Texto que describa la imagen')
-      .tarjeta.bg-amarillo-claro.p-3(x="3.8%" y="64%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p <b>1. Transparencia</b>  
-          p Todos los aspectos del proyecto deben ser completamente conocidos por cada uno de sus integrantes, debe lograrse la misma percepción de todos, de forma clara y precisa.
+      .tarjeta.bg-amarillo-claro.p-4(x="3.8%" y="64%" numero="")
+        h5 <b>1. Transparencia</b>  
+        p Todos los aspectos del proyecto deben ser completamente conocidos por cada uno de sus integrantes, debe lograrse la misma percepción de todos, de forma clara y precisa.
    
-      .tarjeta.bg-amarillo-claro.p-3(x="36.4%" y="94.2%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p  <b>2. Inspección</b>  
-          p Los procesos son guiados hacia un objetivo y cada participante debe estar autoevaluando, de acuerdo con sus resultados y el proceso mismo, detectando posibles desviaciones con rapidez.
+      .tarjeta.bg-amarillo-claro.p-4(x="36.4%" y="94.2%" numero="")
+        h5 <b>2. Inspección</b>  
+        p Los procesos son guiados hacia un objetivo y cada participante debe estar autoevaluando, de acuerdo con sus resultados y el proceso mismo, detectando posibles desviaciones con rapidez.
            
-      .tarjeta.bg-amarillo-claro.p-3(x="96.4%" y="74%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p  <b>3. Adaptación</b> 
-          p Al lograr identificar una desviación, se deben adaptar mediante acciones que ayuden a la corrección o reconfigurar el objetivo.  
+      .tarjeta.bg-amarillo-claro.p-4(x="96.4%" y="74%" numero="")
+        h5 <b>3. Adaptación</b> 
+        p Al lograr identificar una desviación, se deben adaptar mediante acciones que ayuden a la corrección o reconfigurar el objetivo.  
     
     p.til.mb-5 Scrum se basa en procesos de mejora continua, apoyándose en el ciclo Deming, así:
     
@@ -150,7 +175,7 @@
           img(src='@/assets/curso/tema1/img1.png', alt='Scrum', class='img-fluid')
       .col.col-12.col-lg-6
         p.mb-4 Los conceptos y las entidades ayudan a plantear la forma de trabajo en Scrum. Para lograr trabajar de manera adecuada en esta metodología, se pueden identificar las unidades, que son las llamadas historias de usuario o <i>user stories</i>.
-        .cajon.color-primario.p-4.mb-4.col-11.esp2(style='background-color: #F0F1F5')
+        .cajon.color-primario.p-4.mb-4.col-12(style='background-color: #F0F1F5')
           p De igual forma, existen unidades que suelen ser muy complejas para individualizarlas o demasiado simples para tratarlas como grandes descripciones de un proyecto. Se debe, entonces, iniciar siempre desde las más sencillas y avanzar hasta las más complejas.
         p Las siguientes son las entidades concebidas desde la metodología Scrum; aquí es importante tener presente que se deben jerarquizar los niveles para solucionar las incertidumbres:
       
