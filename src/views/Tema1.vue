@@ -87,25 +87,33 @@
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
       .tarjeta.bg-amarillo-claro.p-3(x="34.5%" y="20.5%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p <b>Plan, planifica:</b> ¿qué hacer?, ¿cómo hacerlo?
+        p <b>1. Plan, planifica:</b> ¿qué hacer?, ¿cómo hacerlo?
    
       .tarjeta.bg-amarillo-claro.p-3(x="73.5%" y="20.5%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p  <b>Do, ejecuta:</b> realizar lo planificado.
+        p  <b>2. Do, ejecuta:</b> realizar lo planificado.
            
       .tarjeta.bg-amarillo-claro.p-3(x="33%" y="86%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p  <b>Check, comprueba:</b> ¿se pudo actuar frente a lo planeado? 
+        p  <b>3. Check, comprueba:</b> ¿se pudo actuar frente a lo planeado? 
     
       .tarjeta.bg-amarillo-claro.p-3(x="72.5%" y="86%" numero="")
-        .texto-seis-alt.color-acento-botones
-          p  <b>Act (actúa):</b> ¿cómo mejoramos para el siguiente ciclo?  
+        p  <b>4. Act (actúa):</b> ¿cómo mejoramos para el siguiente ciclo?  
     
-    .col-3.pos12.mb-5
-      picture
-        img(src='@/assets/curso/tema1/importante.svg', alt='Ubicación de mercancía', class='img-fluid')
+    .row
+      .col-md-12
+        a.picture.indicador__container(@click="modal1 = true")
+          img(src='@/assets/curso/tema1/importante.svg', alt='Ubicación de mercancía', style="width: 263px").center
+        .col
+            a.lnk(@click="modal1 = true") 
+        ModalA(:abrir-modal.sync="modal1")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              p <i>Scrum</i>, además de buscar resultados apropiados y rápidos, también trata de lograr que los integrantes del equipo, en el desarrollo del proyecto, sientan responsabilidad y satisfacción.
+            
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
     separador
+
 
     .titulo-segundo.color-acento-contenido#t_1_1
       h2 1.1.	Premisas Scrum 
@@ -206,6 +214,8 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
+    modal1: false,
+    indicadorTarjetaFlip: true,
     datosSlyder: [
       {
         titulo: 'Velocidad',
