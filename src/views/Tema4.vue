@@ -26,7 +26,7 @@
           span Si se desea saber cuáles son las características del artefacto <i>product Backlog</i>, denominadas características de las tres C, por su denominación en inglés, se invitamos a conocerlas:
         .col-12.col-md-5
           img(src='@/assets/curso/tema4/img2.png' alt='AvatarTop', style="width:483px; display:block; margin:1rem 0;").m-auto
-      
+        
       ImagenInfografica.color-acento-botones.col-12.col-lg-8.mb-5.center(data-aos="fade-down")
         template(v-slot:imagen)
           figure
@@ -39,7 +39,7 @@
         .tarjeta.bg-amarillo-claro.p-4(x="32.2%" y="94.5%" numero="+")
             .h5.mb-2 2. Conversation
             p Resultado de la conversación y negociación.
-        
+          
         .tarjeta.bg-amarillo-claro.p-4(x="96.2%" y="77%" numero="+")
             .h5.mb-2 3. Confirmation
             p Confirmación de los cumplimientos y terminaciones del proyecto. 
@@ -104,58 +104,59 @@
     figure.center.col-md-6.col-12.mb-5(data-aos="fade-down")
       img(src='@/assets/curso/tema4/vec3.svg')
     br
-    .tarjeta.col-md-12.col-12.pos12.gris.mb-5(data-aos="fade-down")
-        SlyderA(tipo="b")
-          .row.fondo-slyder_3
-            .col-lg-7.align-items-center
-              h5.aling-1 Graphs
-                p.mt-3 Se propone un gráfico como herramienta para lograr visualizar un proyecto, llamado burndown y se compone de dos vistas: la cantidad de trabajo que queda por hacer (eje Y) en un día determinado desde que se empezó a trabajar (eje X) y hasta que se complete el trabajo. Es responsable el PO, puesto que le permite ver la evolución del proyecto y realizar ajustes en los sprint review.
-            .col-lg-5.col-10.center
-              figure
-                img(src='@/assets/curso/tema4/1.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin: 2rem;").m-auto
-          
-          .row.fondo-slyder_3
-            .col-lg-7.align-items-center
-              h5.aling-1 Sprint burn-down
-                p.mt-3 Especifica la evolución del sprint. Se hace responsable el scrum master, es actualizado siempre por la consulta del scrum board, en la cual se conoce la evolución del sprint. El gráfico representa la métrica de previsión para la valoración en horas de las tareas y la evolución real que identifica el consumo de horas en cada tarea.
-            .col-lg-5.col-10.center
-              figure
-                img(src='@/assets/curso/tema4/2.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
-          
-          .row.fondo-slyder_3
-            .col-lg-7.align-items-center
-              h5.aling-1 Impediments Backlog (IB)
-                p.mt-3 Es el listado de problemas que se registran para que el scrum master logre soluciones. Podrían llegar a catalogarse como de difícil solución para el equipo.
-            .col-lg-5.col-10.center
-              figure
-                img(src='@/assets/curso/tema4/3.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
-          
-          .row.fondo-slyder_3
-            .col-lg-7.align-items-center
-              h5.aling-1 Incident backlog
-                p.mt-3 Lista de problemas referenciados a un sprint. Registra problemas que sí tienen solución y se logran corregir.
-            
-            .col-lg-5.col-10.center
-              figure
-                img(src='@/assets/curso/tema4/4.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
+    .bg_grad-08
+      .tarjeta.col-md-12.col-12.pos12.gris.mb-5(data-aos="fade-down")
+          SlyderA(tipo="b")
+            .row.fondo-slyder_3
+              .col-lg-7.align-items-center
+                h5.aling-1 Graphs
+                  p.mt-3 Se propone un gráfico como herramienta para lograr visualizar un proyecto, llamado burndown y se compone de dos vistas: la cantidad de trabajo que queda por hacer (eje Y) en un día determinado desde que se empezó a trabajar (eje X) y hasta que se complete el trabajo. Es responsable el PO, puesto que le permite ver la evolución del proyecto y realizar ajustes en los sprint review.
+              .col-lg-5.col-10.center
+                figure
+                  img(src='@/assets/curso/tema4/1.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin: 2rem;").m-auto
+              
+            .row.fondo-slyder_3
+              .col-lg-7.align-items-center
+                h5.aling-1 Sprint burn-down
+                  p.mt-3 Especifica la evolución del sprint. Se hace responsable el scrum master, es actualizado siempre por la consulta del scrum board, en la cual se conoce la evolución del sprint. El gráfico representa la métrica de previsión para la valoración en horas de las tareas y la evolución real que identifica el consumo de horas en cada tarea.
+              .col-lg-5.col-10.center
+                figure
+                  img(src='@/assets/curso/tema4/2.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
+              
+            .row.fondo-slyder_3
+              .col-lg-7.align-items-center
+                h5.aling-1 Impediments Backlog (IB)
+                  p.mt-3 Es el listado de problemas que se registran para que el scrum master logre soluciones. Podrían llegar a catalogarse como de difícil solución para el equipo.
+              .col-lg-5.col-10.center
+                figure
+                  img(src='@/assets/curso/tema4/3.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
+              
+            .row.fondo-slyder_3
+              .col-lg-7.align-items-center
+                h5.aling-1 Incident backlog
+                  p.mt-3 Lista de problemas referenciados a un sprint. Registra problemas que sí tienen solución y se logran corregir.
+                
+              .col-lg-5.col-10.center
+                figure
+                  img(src='@/assets/curso/tema4/4.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
 
-          .row.fondo-slyder_3
-            .col-lg-7.align-items-center
-              h5.aling-1 Parking backlog
-                p.mt-3 Es la lista de tareas atascadas en un sprint, al ser detectado un problema que impide acabarlas. El parking backlog, tiene que quedar vacío al finalizar un sprint.
-            
-            .col-lg-5.col-10.center
-              figure
-                img(src='@/assets/curso/tema4/5.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
+            .row.fondo-slyder_3
+              .col-lg-7.align-items-center
+                h5.aling-1 Parking backlog
+                  p.mt-3 Es la lista de tareas atascadas en un sprint, al ser detectado un problema que impide acabarlas. El parking backlog, tiene que quedar vacío al finalizar un sprint.
+                
+              .col-lg-5.col-10.center
+                figure
+                  img(src='@/assets/curso/tema4/5.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
 
-          .row.fondo-slyder_3
-            .col-lg-7.align-items-center
-              h5.aling-1 Scrum board
-                p.mt-3 Es la herramienta visual del estado del sprint para el scrum team. Demuestra la situación real del sprint. 
-            
-            .col-lg-5.col-10.center
-              figure
-                img(src='@/assets/curso/tema4/6.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
+            .row.fondo-slyder_3
+              .col-lg-7.align-items-center
+                h5.aling-1 Scrum board
+                  p.mt-3 Es la herramienta visual del estado del sprint para el scrum team. Demuestra la situación real del sprint. 
+                
+              .col-lg-5.col-10.center
+                figure
+                  img(src='@/assets/curso/tema4/6.png', alt='AvatarTop', style="height:auto; width:auto; display:block; margin:auto 2rem;").m-auto
 
 </template>
 
