@@ -8,7 +8,7 @@
       h1 Scrum, definición y características
 
     .bg_grad-01
-      .row.mb-5
+      .row.mb-5(data-aos="fade-right")
         .col.col-12.col-lg-8.pt-5
           p Hablar de Scrum es referirse a una metodología de trabajo en equipo, que ayuda a delegar responsabilidades dentro de un proyecto, para lograr su ejecución y desarrollo de manera pertinente, acertada y rápida; ello, abrirá paso al logro de objetivos a corto tiempo.
           .cajon.color-secundario.bg-3-claro.p-4.mb-4.col-12
@@ -18,8 +18,8 @@
           picture
             img(src='@/assets/curso/tema1/vec1.svg', alt='Ubicación de mercancía', class='img-fluid')
       
-      .tarjeta.col-md-12.col-10.pos12.gris.mb-5
-        SlyderA(tipo="b")
+      .tarjeta.col-md-12.col-12.pos12.gris.mb-5
+        SlyderA(tipo="b")(data-aos="fade-left")
           .row.fondo-slyder
             .col-lg-5.col-7.center
               figure
@@ -66,7 +66,7 @@
     p.til.mb-5 Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
     
     .bg_grad-02
-      ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5
+      ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5(data-aos="fade-down")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema1/vec2.svg', alt='Texto que describa la imagen')
@@ -84,7 +84,7 @@
       
     p.til.mb-5 Scrum se basa en procesos de mejora continua, apoyándose en el ciclo Deming, así:
     
-    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5
+    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5(data-aos="fade-down")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
@@ -121,66 +121,66 @@
       h2 1.1.	Premisas Scrum 
 
     .bg_grad-03
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg.order-2.order-lg-1
-          .custom_box_rigth 
-            p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
-            span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
-        .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1
-          img(src="@/assets/curso/tema1/vec4.svg" alt='AvatarTop', style="width:330px; display:block; margin:-6rem -1rem;").m-auto
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg.order-2.order-lg-1
+        .custom_box_rigth 
+          p.mb-4 La idea de las premisas en Scrum es que la satisfacción del producto, no sea solo parte del cliente, sino que también debe ser para cada uno de los integrantes del equipo ejecutor. 
+          span Como parte de la metodología, las premisas favorecen la comprensión conceptual de la misma y dan soporte argumental a su propuesta; ellas están directamente relacionadas con los valores Scrum, y son las máximas orientaciones para la efectividad de la aplicación de esta metodología.
+      .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1
+        img(src="@/assets/curso/tema1/vec4.png" alt='AvatarTop', style="width:330px; display:block; margin:-6rem -1rem;").m-auto
 
-      .row.til.mb-5
-        p  A su vez, los valores de la metodología Scrum, son:
+    .row.til.mb-5
+      p  A su vez, los valores de la metodología Scrum, son:
 
-      .row.mb-5
-        .col-md-3.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop')
-            .tarjeta.bg-secundario.w-100
-              .text-center.p-2.mt-3.text-system
-                h4 Enfoque
+    .row.mb-5(data-aos="fade-down")
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop' style="width: 114px")
+          .tarjeta.bg-secundario.w-100
+            .text-center.p-2.mt-3.text-system
+              h4 Enfoque
 
-        .col-md-3.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop')
-            .tarjeta.bg-color-primario.w-100
-              .text-center.p-2.mt-3.text-system
-                h4 Compromiso
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop' style="width: 114px")
+          .tarjeta.bg-color-primario.w-100
+            .text-center.p-2.mt-3.text-system
+              h4 Compromiso
 
-        .col-md-3.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop')
-            .tarjeta.bg-secundario.w-100
-              .text-center.p-2.mt-3.text-system
-                h4 Coraje
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop' style="width: 114px")
+          .tarjeta.bg-secundario.w-100
+            .text-center.p-2.mt-3.text-system
+              h4 Coraje
 
-        .col-md-3.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/img_4.svg' alt='AvatarTop')
-            .tarjeta.bg-color-primario.w-100
-              .text-center.p-2.mt-3.text-system
-                h4 Respeto
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_4.svg' alt='AvatarTop' style="width: 114px")
+          .tarjeta.bg-color-primario.w-100
+            .text-center.p-2.mt-3.text-system
+              h4 Respeto
 
-        .col-md-3.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/img_5.svg' alt='AvatarTop')
-            .tarjeta.bg-secundario.w-100
-              .text-center.p-2.mt-3.text-system
-                h4 Organización abierta
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/tema1/img_5.svg' alt='AvatarTop' style="width: 114px")
+          .tarjeta.bg-secundario.w-100
+            .text-center.p-2.mt-3.text-system
+              h4 Organización abierta
               
-      p.mb-5 En el siguiente recurso didáctico, se conocerá y profundizará en las premisas que configuran la metodología Scrum; se debe prestar mucha atención y llevar registro de lo más destacado en la libreta personal de apuntes:
+    p.mb-5 En el siguiente recurso didáctico, se conocerá y profundizará en las premisas que configuran la metodología Scrum; se debe prestar mucha atención y llevar registro de lo más destacado en la libreta personal de apuntes:
 
-      .row.justify-content-center.mb-5
-        .col-md-12
-          .video
-            iframe(width="942" height="530" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-12
+        .video
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
 
 
     #t_1_2.titulo-segundo.color-acento-contenido.mb-4
       h2 1.2.	Premisas Scrum
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col.col-12.col-lg-6.position-relative
         picture
           img(src='@/assets/curso/tema1/img1.png', alt='Scrum', class='img-fluid')
@@ -191,7 +191,7 @@
         p Las siguientes son las entidades concebidas desde la metodología Scrum; aquí es importante tener presente que se deben jerarquizar los niveles para solucionar las incertidumbres:
       
     .bg_grad-04
-      ImagenInfografica.color-acento-botones.mb-5.col-md-9.center.col-12
+      ImagenInfografica.color-acento-botones.mb-5.col-md-9.center.col-12(data-aos="fade-down")
         template(v-slot:imagen)
           figure
             img(src='@/assets/template/vec1.svg', alt='Texto que describa la imagen')
@@ -210,7 +210,7 @@
 
     p.mb-5 A continuación se exponen otros puntos característicos que deben ser tenidos en cuenta en lo referente a entidades Scrum y que afectan directamente el desarrollo del proyecto:
       
-    SlyderB.mb-5(:datos="datosSlyder")
+    SlyderB.mb-5(:datos="datosSlyder")(data-aos="fade-down")
     
 </template>
 

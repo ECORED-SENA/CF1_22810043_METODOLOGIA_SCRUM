@@ -4,7 +4,7 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-lg-6.col-xxl-5.py-3.py-sm-4.banner-principal__info.ps-4
+      .col-lg-6.col-xxl-5.py-3.py-sm-4.banner-principal__info.ps-4.justify-content-center
         .banner-principal__componente
           h1.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
@@ -50,7 +50,9 @@ export default {
 .banner-principal__info
   padding-left: 80px  !important
   z-index: 3
-
+  @media screen and (max-width: 999px)
+    padding-left: 40px  !important
+    z-index: 3
 
 .banner-principal
   p, h1, h2, h3, h4, h5, h6

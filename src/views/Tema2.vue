@@ -7,64 +7,74 @@
         span 2
       h1  Ciclo de vida Scrum      
     .bg_grad-05
-    .row.justify-content-center
-      .col-10.mb-5
+    .row.justify-content-center(data-aos="fade-down")
+      .col-md-10.col-12.mb-5
         picture
           img(src='@/assets/curso/tema2/cicloscrum.png', alt='Ciclo de vida Scrum', class='img-fluid')
 
-      .col-10.mb-3
+      .col-md-10.col-12.mb-3
         p La metodología Scrum en un proyecto se ejecuta en ciclos temporales, cortos y definidos en su duración. Es decir, son iteraciones de 2, 3 o 4 semanas, dependiendo del proyecto y su replanteamiento, si se necesita. Cada iteración debe mostrar un resultado completo y los objetivos deben ser priorizados para su desarrollo y cumplimento.
 
-      .col-10.cajon.color-secundario.p-4.mb-4(style='background-color: #B9CAF9')
+      .col-md-10.col-12.cajon.color-secundario.p-4.mb-4(style='background-color: #B9CAF9')
         p Los <font color="#0043FF"><b>roles</b></font> determinan las responsabilidades del proyecto en el equipo de trabajo (<i>Scrum team</i>). El negocio será representado por el <font color="#0043FF"><b><i>product owner</i></b></font> (principal responsable) y junto al <font color="#0043FF"><b><i>Scrum master</i></b></font> (facilitador o entrenador del equipo) se conforma el gobierno del proyecto. Luego siguen los <font color="#0043FF"><b><i>stakeholders</i></b></font>: usuarios clave que conocen el negocio y saben lo que se necesita en el proyecto.
 
 
-    .row.justify-content-center
-      .col-lg-3
-        a.tarjeta-avatar-b.mb-5.indicador__container(@click="modal1 = true")
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/avatar1.svg' alt='AvatarTop')
-          .tarjeta.color-primario
-            .p-2
-              h2.m-2 Los roles
-          .col
-            a.lnk(@click="modal1 = true") 
-          ModalA(:abrir-modal.sync="modal1")
-            .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
-                p <i>Scrum</i>, además de buscar resultados apropiados y rápidos, también trata de lograr que los integrantes del equipo, en el desarrollo del proyecto, sientan responsabilidad y satisfacción.
+    .row.mb-5(data-aos="fade-down")
+      .col-lg-4.mb-3
+        a.picture.indicador__container(@click="modal1 = true")
+          img(src='@/assets/curso/tema2/roles.svg', alt='Ubicación de mercancía', style="width: 263px").center
+        .col
+          a.lnk(@click="modal1 = true") 
+        ModalA(:abrir-modal.sync="modal1")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h5 Los roles
+              p Los roles ayudan a determinar las responsabilidades en el proyecto.
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/1.png',)
+
+      .col-lg-4.mb-3
+        a.picture.indicador__container(@click="modal2 = true")
+          img(src='@/assets/curso/tema2/actividades.svg', alt='Ubicación de mercancía', style="width: 263px").center
+        .col
+          a.lnk(@click="modal2 = true") 
+        ModalA(:abrir-modal.sync="modal2")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h5 Las actividades
+              p Las actividades ayudan a establecer los tiempos de ejecución, divididos en ciclos evaluables, proporcionando una visión en todo momento sobre el producto.
+
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/2.png',)
+
+      .col-lg-4.mb-3
+        a.picture.indicador__container(@click="modal3 = true")
+          img(src='@/assets/curso/tema2/artefactos.svg', alt='Ubicación de mercancía', style="width: 263px").center
+        .col
+          a.lnk(@click="modal3 = true") 
+        ModalA(:abrir-modal.sync="modal3")
+          .row.align-items-center
+            .col-md-6.mb-4.mb-md-0
+              h5 Los artefactos
+              p Los artefactos conforman el equipo de herramientas con el cual se ejecuta y se controla el proyecto, basado en listas de control y el Scrum board.
               
-              .col-md-6
-                figure
-                  img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
+            .col-md-6
+              figure
+                img(src='@/assets/curso/tema2/3.png',)
 
-
-      .col-lg-3
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/avatar2.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
-            .p-2
-              h2.m-2 Las actividades
-
-      .col-lg-3
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema2/avatar3.svg' alt='AvatarTop')
-          .tarjeta.color-primario
-            .p-2
-              h2.m-2 Los artefactos
 
     p.mb-5 Conociendo lo anterior, como elementos fundamentales del ciclo de vida, Scrum proponen los siguientes roles, actividades y artefactos:
 
     
-    .row.mb-5
-      .col-lg-7
+    .row.mb-5.justify-content-center
+      .col-lg-6
         .row.mb-5(data-aos="fade-up")
           .col-md-12.mb-4.mb-md-0
             LineaTiempoD.color-primario.text-bold
               p.text-small(numero="1" titulo="Roles").m-2
-                ul.lista-ul--color
+                ul.lista-ul
                   p <i>Scrum team</i> (ST) se forma por:
                   li 
                     i.fas.fa-users
@@ -80,7 +90,7 @@
                     span <i>Stakeholders</i>
 
               p.text-small(numero="2" titulo="Artefactos").m-2
-                ul.lista-ul--color
+                ul.lista-ul
                   h5 Del proyecto: 
                   li 
                     i.fas.fa-users
@@ -107,8 +117,8 @@
                     span <i>Parking backlog</i>
 
 
-              p.text-small(numero="2" titulo="Artefactos").m-2
-                ul.lista-ul--color
+              p.text-small(numero="2" titulo="Actividades").m-2
+                ul.lista-ul
                   li 
                     i.fas.fa-users
                     span <i>Sprint 0 o first sprint (primer sprint).</i>
@@ -128,44 +138,42 @@
                     i.fas.fa-users
                     span <i>Sprint retrospective (retrospectiva del sprint).</i>
       .col-lg-5  
-        img(src='@/assets/curso/tema2/lineadetiempo.png')(data-aos="fade-up")
+        img(src='@/assets/curso/tema2/lineadetiempo.png' style="width: 472px")(data-aos="fade-up")
 
     p.mb-5 Ahora, se invita a conocer otros aspectos importantes del ciclo de vida Scrum y profundizar en ellos:
 
-    ImagenInfografica.color-acento-botones.col-lg-10.mb-5.center
+    ImagenInfografica.color-acento-botones.col-lg-10.mb-5.center(data-aos="fade-down")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen')
 
-      .tarjeta.color-acento-contenido.p-3(x="19.7%" y="9.8%" numero="+")
-          .h5.mb-2 <i>Daily meetings</i> o reuniones diarias
+      .tarjeta.bg-amarillo-claro.p-4(x="19.7%" y="9.8%" numero="+")
+          .h5.mb-3 1.<i>Daily meetings</i> o reuniones diarias
           p Para cada <i>sprint</i>, <b><i>el scrum team</i></b> extrae las historias de usuario en tareas, y mientras dure el <i>sprint</i> se llevarán reuniones diarias <b><i>(daily meetings)</i></b>, en las cuales el equipo se sincroniza y avanza construyendo tareas. 
 
-      .tarjeta.color-acento-contenido.p-3(x="65.5%" y="3%" numero="+")
-          .h5.mb-2 Finalización del <i>sprint</i>
+      .tarjeta.bg-amarillo-claro.p-4(x="65.5%" y="3%" numero="+")
+          .h5.mb-3 2.Finalización del <i>sprint</i>
           p El proceso finaliza con una reunión de presentación de los resultados al usuario (<b><i>sprint review</i></b>) que aceptará o no el producto.
 
-      .tarjeta.color-acento-contenido.p-3(x="97%" y="32.4%" numero="+")
-          .h5.mb-2 Retrospectiva o <i>Scrum retrospective</i>
+      .tarjeta.bg-amarillo-claro.p-4(x="97%" y="32.4%" numero="+")
+          .h5.mb-3 3.Retrospectiva o <i>Scrum retrospective</i>
           p Luego, el <b><i>development team</i></b> (equipo de desarrollo) y el <b><i>Scrum master</i></b> (entrenador o facilitador), se reúnen; la intención de esta reunión se conoce como <b><i>Scrum retrospective</i></b> y en ella se busca identificar mejoras en los procesos internos e iniciar, de nuevo, con un <i>sprint</i>.
       
-      .tarjeta.color-acento-contenido.p-3(x="91.5%" y="73.7%" numero="+")
-          .h5.mb-2 Realizar, ordenar, priorizar, documentar
+      .tarjeta.bg-amarillo-claro.p-4(x="91.5%" y="73.7%" numero="+")
+          .h5.mb-3 4.Realizar, ordenar, priorizar, documentar
           p Para lograr identificar las grandes divisiones del trabajo por desarrollar en un proyecto, se debe realizar, ordenar priorizar y documentar. En el desarrollo de los métodos tradicionales se comete el error de confiar en que no habrá cambios, estructuras o requisitos nuevos. 
       
-      .tarjeta.color-acento-contenido.p-3(x="62%" y="97%" numero="+")
-          .h5.mb-2 Product backlog / potencialidad de Scrum
+      .tarjeta.bg-amarillo-claro.p-4(x="62%" y="97%" numero="+")
+          .h5.mb-3 5.Product backlog / potencialidad de Scrum
           p Con la potencialidad que representa Scrum, se elaboran las nuevas peticiones o requisitos de manera flexible, configurable y dinámica, denominada en este caso como <b><i>Product Backlog (PB)</i></b>. 
       
-      .tarjeta.color-acento-contenido.p-3(x="17.4%" y="86%" numero="+")
-          .h5.mb-2 Inicio del ciclo de vida
+      .tarjeta.bg-amarillo-claro.p-4(x="17.4%" y="86%" numero="+")
+          .h5.mb-3 6.Inicio del ciclo de vida
           p El ciclo de vida de un proyecto Scrum, inicia cuando el <b><i>Product Owner (PO)</i></b>, crea e informa sobre el <b><i>Product Backlog (PB)</i></b>. 
       
-      .tarjeta.color-acento-contenido.p-3(x="2.9%" y="45.7%" numero="+")
-          .h5.mb-2 Configuración del product backlog
+      .tarjeta.bg-amarillo-claro.p-4(x="2.9%" y="45.7%" numero="+")
+          .h5.mb-3 7.Configuración del product backlog
           p El <b><i>Product Backlog (PB)</i></b> se forma por las historias de usuario definidas que ayudan a identificar, de manera clara y precisa, la funcionalidad que se requiere para el producto. 
-
-    separador
 
 
 
@@ -175,7 +183,10 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -23,29 +23,57 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Hoja de vida ',
+        titulo: 'Scrum, definición y características',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Premisas Scrum',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Entidades Scrum',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Análisis según lineamientos',
+        titulo: 'Ciclo de vida Scrum',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Validación de información',
+        titulo: 'Roles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Referentes de evaluación ',
+        titulo: 'Artefactos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Product backlog',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Sprint backlog',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -90,61 +118,64 @@ export default {
   referencias: [
     {
       referencia:
-        'AGUILAR, W. C. V. (1992). Hoja de vida (Tesis doctoral, Universidad Nacional Jorge Basadre Grohmann).',
+        'Fernandomaranon.com. (2019). ¿Cuáles son las funciones del SCRUM master? Ferandomaranon.',
+      link: 'https://fernandomaranon.com/2018/09/01/el-rol-del-scrum-master',
     },
     {
       referencia:
-        'Cubillos Rueda, J. C. (2020). Análisis de requerimientos, Diseño Frontend y de base de datos del aplicativo web, para el control de las hojas de vida de los graduados en las Unidades Tecnológicas de Santander.',
+        ' Lasa, C., Álvarez, A. y Heras del D., R. (2017). Métodos ágiles: Scrum, Kanban, Lean. Difusora Larousse - Anaya Multimedia.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/122933?page=1',
     },
     {
-      referencia:
-        'David, C. P. E., & Jeancarlos, P. C. (2019). Desarrollo de un aplicativo Android que genere un repositorio de hojas de vida para aspirantes a puestos vacantes en el centro estético millennials (Tesis doctoral, Instituto superior tecnológico de Guayaquil).',
-      link: 'http://dspace.itsgg.edu.ec:8080/jspui/handle/123456789/32',
-    },
-    {
-      referencia:
-        'Ojeda-Avellaneda, A. C., Torres-Lizarazo, D. F., & Monsalve-Flórez, J. A. (2021). Conceptualización de la Hoja de vida de lector como instrumento de evaluación formativa en la educación superior. Entramado, 17(1), 150-167.',
-    },
-    {
-      referencia:
-        'REAL ACADEMIA ESPAÑOLA. (2021) Diccionario de la lengua española, 23.ª ed.',
-      link: 'https://dle.rae.es',
+      referencia: 'Monte, J. (2016). Implantar Scrum con éxito. Editorial UOC.',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/58575?page=1',
     },
   ],
   glosario: [
     {
-      termino: 'Informe',
+      termino: 'Board',
       significado:
-        'Exposición oral o escrita sobre el estado de una cosa o de una persona, sobre las circunstancias que rodean un hecho, etc.',
+        '(tablero) en Scrum es la herramienta visual donde se mantiene la comunicación constante, fortaleciendo las actividades de los procesos.',
     },
     {
-      termino: 'Hoja de vida ',
+      termino: 'Development',
       significado:
-        'Es la carta de presentación del aspirante y una herramienta para acceder a una entrevista de trabajo.',
+        '(desarrollo) conjunto de profesionales que desarrollan el producto con ciertas habilidades técnicas.',
     },
     {
-      termino: 'Plataformas',
+      termino: 'Planning',
       significado:
-        'Entorno informático determinado, que utiliza sistemas compatibles entre sí.',
+        '(planificación) reunión que se da al inicio de cada Sprint donde participa el equipo completo de Scrum, y donde se define lo que se trabajará durante el siguiente Sprint.',
     },
     {
-      termino: 'Repositorio',
+      termino: 'Review',
       significado:
-        'Sitio centralizado <em>(web)</em> donde se almacena y se preserva información digital, habitualmente bases de datos o archivos informáticos.',
+        '(revisión) se realiza al final del Sprint, sacando conclusiones y si hubo cambios.',
+    },
+    {
+      termino: 'Scrum',
+      significado:
+        'en el rugby, es un tipo de formación fija, cuya función es disputar y poner el balón en juego; en referencia al Scrum, es la idea de avanzar en equipo, enviando balón hacia atrás para luego avanzar.',
+    },
+    {
+      termino: 'Sprint',
+      significado:
+        '(pique, carrera) intervalo de un proceso, hecho o terminado y entregable en Scrum.',
     },
   ],
   complementario: [
     {
-      texto:
-        'Cubillos Rueda, J. C. (2020). Análisis de requerimientos, Diseño Frontend y de base de datos del aplicativo web, para el control de las hojas de vida de los graduados en las Unidades Tecnologicas de Santander.',
-      tipo: 'Documento',
-      link: 'http://repositorio.uts.edu.co:8080/xmlui/handle/123456789/3979',
+      texto: 'EDteam. (2020). ¿Qué es Scrum? [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=sLexw-z13Fo&ab_channel=EDteam',
     },
     {
       texto:
-        'David, C. P. E., & Jeancarlos, P. C. (2019). Desarrollo de un aplicativo Android que genere un repositorio de hojas de vida para aspirantes a puestos vacantes en el centro estético millennials (Tesis doctoral, Instituto superior tecnológico de Guayaquil).',
-      tipo: 'Documento',
-      link: 'http://dspace.itsgg.edu.ec:8080/jspui/handle/123456789/32',
+        'EDteam. (2020). Curso de Scrum: ¿Cuáles son los roles en Scrum? [Video]. YouTube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=lSYZ1sZWvbQ&ab_channel=EDteam',
     },
   ],
   creditos: {
@@ -171,22 +202,21 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Marcela Alarcon Granados',
-        cargo: 'Diseño web',
+        nombre: ' ',
+        cargo: 'Soporte organizacional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Carlos Andrés Díaz Pinto',
-        cargo: 'Desarrollo Front-end',
+        nombre: ' ',
+        cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
         nombre: 'Wilson Andrés Arenales Cáceres',
@@ -202,24 +232,66 @@ export default {
       },
       {
         nombre: 'Camilo Andrés Bolaño Rey',
-        cargo: 'Producción audiovisual',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Carlos Eduardo Garavito Parada',
+        nombre: 'John Jairo Arciniegas González',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Yenny Patricia Ulloa Villamizar',
+        nombre: 'Ernesto Navarro Jaimes',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lady Adriana Ariza Luque',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carmen Alicia Martínez Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Carlos Mauricio Gómez Delgado',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -227,17 +299,12 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: '',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
