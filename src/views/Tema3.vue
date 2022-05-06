@@ -6,7 +6,8 @@
       .titulo-principal__numero
         span 3
       h1 Roles 
-      
+
+    .bg_grad-06  
     .row.justify-content-center.align-items-center.mb-5
       .col-lg.order-1.order-lg-2
         .custom_box_left 

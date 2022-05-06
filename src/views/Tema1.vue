@@ -190,23 +190,26 @@
           p De igual forma, existen unidades que suelen ser muy complejas para individualizarlas o demasiado simples para tratarlas como grandes descripciones de un proyecto. Se debe, entonces, iniciar siempre desde las más sencillas y avanzar hasta las más complejas.
         p Las siguientes son las entidades concebidas desde la metodología Scrum; aquí es importante tener presente que se deben jerarquizar los niveles para solucionar las incertidumbres:
       
-    ImagenInfografica.color-acento-botones.mb-5.col-md-9.center.col-12
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/template/vec1.svg', alt='Texto que describa la imagen')
+    .bg_grad-04
+      ImagenInfografica.color-acento-botones.mb-5.col-md-9.center.col-12
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/template/vec1.svg', alt='Texto que describa la imagen')
 
-      .tarjeta(style='background-color: #BAEAE8').p-4(x="16.8%" y="70.1%" numero="+")
-        .h5.mb-2 Tareas
-        p Es un trabajo concreto, realizado por una persona, con límite de días, lenguaje técnico del trabajo.
+        .tarjeta(style='background-color: #BAEAE8').p-4(x="16.8%" y="70.1%" numero="+")
+          .h5.mb-2 Tareas
+          p Es un trabajo concreto, realizado por una persona, con límite de días, lenguaje técnico del trabajo.
 
-      .tarjeta(style='background-color: #BAEAE8').p-4(x="34.4%" y="26.2%" numero="+")
-        .h5.mb-2 Historias de usuario
-        p Es donde se define el lenguaje del negocio que hace el <i>product owner (PO)</i> de los requisitos o necesidades para realizar el trabajo. Estos requisitos se desintegran en unidades más pequeñas para ejecutarlas.
+        .tarjeta(style='background-color: #BAEAE8').p-4(x="34.4%" y="26.2%" numero="+")
+          .h5.mb-2 Historias de usuario
+          p Es donde se define el lenguaje del negocio que hace el <i>product owner (PO)</i> de los requisitos o necesidades para realizar el trabajo. Estos requisitos se desintegran en unidades más pequeñas para ejecutarlas.
 
-      .tarjeta(style='background-color: #BAEAE8').p-4(x="80.2%" y="59.5%" numero="+")
-        .h5.mb-2 Épicas
-        p Es la agrupación de historias de usuario que construyen grandes bloques operativos para realizar junto al proyecto. 
+        .tarjeta(style='background-color: #BAEAE8').p-4(x="80.2%" y="59.5%" numero="+")
+          .h5.mb-2 Épicas
+          p Es la agrupación de historias de usuario que construyen grandes bloques operativos para realizar junto al proyecto. 
 
+    p.mb-5 A continuación se exponen otros puntos característicos que deben ser tenidos en cuenta en lo referente a entidades Scrum y que afectan directamente el desarrollo del proyecto:
+      
     SlyderB.mb-5(:datos="datosSlyder")
     
 </template>

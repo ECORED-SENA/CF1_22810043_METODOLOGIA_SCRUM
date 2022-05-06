@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1  Ciclo de vida Scrum      
-   
+    .bg_grad-05
     .row.justify-content-center
       .col-10.mb-5
         picture
@@ -16,16 +16,28 @@
         p La metodología Scrum en un proyecto se ejecuta en ciclos temporales, cortos y definidos en su duración. Es decir, son iteraciones de 2, 3 o 4 semanas, dependiendo del proyecto y su replanteamiento, si se necesita. Cada iteración debe mostrar un resultado completo y los objetivos deben ser priorizados para su desarrollo y cumplimento.
 
       .col-10.cajon.color-secundario.p-4.mb-4(style='background-color: #B9CAF9')
-        p Los roles determinan las responsabilidades del proyecto en el equipo de trabajo (<i>Scrum team</i>). El negocio será representado por el <i>product owner</i> (principal responsable) y junto al Scrum master (facilitador o entrenador del equipo) se conforma el gobierno del proyecto. Luego siguen los <i>stakeholders</i>: usuarios clave que conocen el negocio y saben lo que se necesita en el proyecto.
+        p Los <font color="#0043FF"><b>roles</b></font> determinan las responsabilidades del proyecto en el equipo de trabajo (<i>Scrum team</i>). El negocio será representado por el <font color="#0043FF"><b><i>product owner</i></b></font> (principal responsable) y junto al <font color="#0043FF"><b><i>Scrum master</i></b></font> (facilitador o entrenador del equipo) se conforma el gobierno del proyecto. Luego siguen los <font color="#0043FF"><b><i>stakeholders</i></b></font>: usuarios clave que conocen el negocio y saben lo que se necesita en el proyecto.
+
 
     .row.justify-content-center
       .col-lg-3
-        .tarjeta-avatar-b.mb-5
+        a.tarjeta-avatar-b.mb-5.indicador__container(@click="modal1 = true")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/avatar1.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-2
               h2.m-2 Los roles
+          .col
+            a.lnk(@click="modal1 = true") 
+          ModalA(:abrir-modal.sync="modal1")
+            .row.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                p <i>Scrum</i>, además de buscar resultados apropiados y rápidos, también trata de lograr que los integrantes del equipo, en el desarrollo del proyecto, sientan responsabilidad y satisfacción.
+              
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/vec5.svg', alt='Texto que describa la imagen')
+
 
       .col-lg-3
         .tarjeta-avatar-b.mb-5
