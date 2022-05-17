@@ -1,1 +1,1 @@
-module.exports = 'METODOLOGÍA_SCRUM'
+module.exports = 'Scrum, descripciones y características'
