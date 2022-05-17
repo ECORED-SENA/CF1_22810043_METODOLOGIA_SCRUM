@@ -11,8 +11,8 @@
       .row.mb-5(data-aos="fade-right")
         .col.col-12.col-lg-8.pt-5
           p Hablar de Scrum es referirse a una metodología de trabajo en equipo, que ayuda a delegar responsabilidades dentro de un proyecto, para lograr su ejecución y desarrollo de manera pertinente, acertada y rápida; ello, abrirá paso al logro de objetivos a corto tiempo.
-          .cajon.color-secundario.bg-3-claro.p-4.mb-4.col-12
-            p La Petición es demandar, pedir o solicitar algo que se requiere o se necesita, la petición se eleva ante una persona sea natural o jurídica, el proceso de petición hace referencia a dudas que se tiene de un procedimiento en alguna de sus etapas de ejecución, un cuestionamiento sobre algún paso o proceso no entendido. 
+          .cajon.color-secundario.p-4.mb-4.col-12
+            p De igual forma, se busca lograr la satisfacción del cliente en sus necesidades y del equipo de trabajo, que se sientan cómodos y satisfechos de acuerdo a sus roles en el desarrollo, entendimiento de los requisitos y ajustes de los cambios. 
           p Ahora se presentan algunos aspectos clave de la definición y configuración de la metodología Scrum; aquí es importante hacer uso de la libreta personal de apuntes para registrar datos importantes.
         .col.col-12.col-lg-4.position-relative
           picture
@@ -66,38 +66,39 @@
     p.til.mb-5 Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
     
     .bg_grad-02
-      ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5(data-aos="fade-down")
+      ImagenInfografica.color-acento-botones.mb-5.col-md-8.center.col-12(data-aos="fade-down")
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema1/vec2.svg', alt='Texto que describa la imagen')
-        .tarjeta.bg-amarillo-claro.p-4(x="3.8%" y="64%" numero="")
+
+        .tarjeta(style='background-color: #BAEAE8').p-4(x="3.6%" y="64.2%" numero="1")
           h5 <b>1. Transparencia</b>  
           p Todos los aspectos del proyecto deben ser completamente conocidos por cada uno de sus integrantes, debe lograrse la misma percepción de todos, de forma clara y precisa.
     
-        .tarjeta.bg-amarillo-claro.p-4(x="36.4%" y="94.2%" numero="")
+        .tarjeta(style='background-color: #BAEAE8').p-4(x="36.6%" y="94.5%" numero="2")
           h5 <b>2. Inspección</b>  
           p Los procesos son guiados hacia un objetivo y cada participante debe estar autoevaluando, de acuerdo con sus resultados y el proceso mismo, detectando posibles desviaciones con rapidez.
             
-        .tarjeta.bg-amarillo-claro.p-4(x="96.4%" y="74%" numero="")
+        .tarjeta(style='background-color: #BAEAE8').p-4(x="96.5%" y="74.3%" numero="3")
           h5 <b>3. Adaptación</b> 
           p Al lograr identificar una desviación, se deben adaptar mediante acciones que ayuden a la corrección o reconfigurar el objetivo.  
       
     p.til.mb-5 Scrum se basa en procesos de mejora continua, apoyándose en el ciclo Deming, así:
     
-    ImagenInfografica.color-acento-botones.mb-5.col-8.pos12.mb-5(data-aos="fade-down")
+    ImagenInfografica.color-acento-botones.mb-5.col-md-8.center.col-12(data-aos="fade-down")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
-      .tarjeta.bg-amarillo-claro.p-3(x="34.5%" y="20.5%" numero="")
+      .tarjeta(style='background-color: #BAEAE8').p-4(x="34.5%" y="20.5%" numero="1")
         p <b>1. Plan, planifica:</b> ¿qué hacer?, ¿cómo hacerlo?
    
-      .tarjeta.bg-amarillo-claro.p-3(x="73.5%" y="20.5%" numero="")
+      .tarjeta(style='background-color: #BAEAE8').p-4(x="73.5%" y="20.5%" numero="2")
         p  <b>2. Do, ejecuta:</b> realizar lo planificado.
            
-      .tarjeta.bg-amarillo-claro.p-3(x="33%" y="86%" numero="")
+      .tarjeta(style='background-color: #BAEAE8').p-4(x="33%" y="86%" numero="3")
         p  <b>3. Check, comprueba:</b> ¿se pudo actuar frente a lo planeado? 
     
-      .tarjeta.bg-amarillo-claro.p-3(x="72.5%" y="86%" numero="")
+      .tarjeta(style='background-color: #BAEAE8').p-4(x="72.5%" y="86%" numero="4")
         p  <b>4. Act (actúa):</b> ¿cómo mejoramos para el siguiente ciclo?  
     
     .row

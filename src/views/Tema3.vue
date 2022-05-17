@@ -15,31 +15,31 @@
       .col-auto.mb-5.mb-lg-1.onTop.order-2.order-lg-1
         img(src='@/assets/curso/tema3/1.png' alt='AvatarTop', style="width:334px; display:block; margin:1rem 0;").m-auto
       
-    p.mb-4.text-center Los roles destacados en Scrum son:
+    p.mb-5.text-center Los roles destacados en Scrum son:
 
     .row.mb-4(data-aos="fade-down")
       .col-md-4.col-lg.mb-5
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_1.svg' alt='AvatarTop' style="width: 114px")
+          img(src='@/assets/curso/tema3/icon1.svg' alt='AvatarTop' style="width: 100px")
           .tarjeta.bg-secundario
             p.text-center.m-4 <i><b>Product owner</b></i> es el dueño del proyecto.
 
       .col-md-4.col-lg.mb-5
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_2.svg' alt='AvatarTop' style="width: 114px")
+          img(src='@/assets/curso/tema3/icon2.svg' alt='AvatarTop' style="width: 100px")
           .tarjeta.bg-color-primario
             p.text-center.m-4 <i><b>Scrum master</b></i> es el mentor, enlace; reporta y propone.
 
       .col-md-4.col-lg.mb-5
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop' style="width: 114px")
+          img(src='@/assets/curso/tema3/icon3.svg' alt='AvatarTop' style="width: 100px")
           .tarjeta.bg-secundario
             p.text-center.m-4 <i><b>Development team</b></i> es el equipo de trabajo.
 
       .col-md-4.col-lg.mb-5
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img_3.svg' alt='AvatarTop' style="width: 114px")
-          .tarjeta.bg-secundario
+          img(src='@/assets/curso/tema3/icon4.svg' alt='AvatarTop' style="width: 100px")
+          .tarjeta.bg-color-primario
             p.text-center.m-4 <i><b>Stakeholders</b></i> los usuarios clave.
             
     p.mb-4 A continuación, se detallan las especificidades de cada rol dentro de la metodología Scrum; se deben identificar las características, particularidades y generalidades de cada uno y su correlación con los demás roles:

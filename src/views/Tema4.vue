@@ -54,8 +54,8 @@
             .tarjeta-flip__img.bgr_2.justify-content-center.align-items-center
               figure.justify-center
                 img.img250.p-4(src='@/assets/curso/tema4/flip1.svg', alt='imagen 1-2')
-            .tarjeta-flip__contenido.bgr_3.p-5.justify-content-center.align-items-center
-              p.text-center.text-white <b>1 Detallado</b> <br><br/> Las historias de usuario deben ser definidas, entendibles y apropiadas. 
+            .tarjeta-flip__contenido.bgr_3.p-4.justify-content-center.align-items-center
+              p.text-left.text-white <b>1 Detallado</b> <br><br/> Las historias de usuario deben ser definidas, entendibles y apropiadas. 
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -64,8 +64,8 @@
             .tarjeta-flip__img.bgr_2.align-items-center
               figure.justify-center
                 img.img250.p-4(src='@/assets/curso/tema4/flip2.svg', alt='imagen 1-2')
-            .tarjeta-flip__contenido.bgr_3.p-5.justify-content-center.align-items-center
-              p.text-center.text-white <b>2 Emergente</b> <br><br/> Se debe tener en cuenta la dinámica de poder cambiar en cualquier momento; adaptable.
+            .tarjeta-flip__contenido.bgr_3.p-4.justify-content-center.align-items-center
+              p.text-left.text-white <b>2 Emergente</b> <br><br/> Se debe tener en cuenta la dinámica de poder cambiar en cualquier momento; adaptable.
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -74,8 +74,8 @@
             .tarjeta-flip__img.bgr_2.align-items-center
               figure.justify-center
                 img.img250.p-4(src='@/assets/curso/tema4/flip3.svg', alt='imagen 1-2')
-            .tarjeta-flip__contenido.bgr_3.p-5.justify-content-center.align-items-center
-              p.text-center.text-white <b>3 Estimado</b> <br><br/> Hace referencia a la valoración de las historias de usuario; asignarles valor de estimación.
+            .tarjeta-flip__contenido.bgr_3.p-4.justify-content-center.align-items-center
+              p.text-left.text-white <b>3 Estimado</b> <br><br/> Hace referencia a la valoración de las historias de usuario; asignarles valor de estimación.
              
 
       .col-sm-6.col-xl-3.mb-5.mb-xl-0
@@ -85,8 +85,8 @@
             .tarjeta-flip__img.bgr_2.align-items-center
               figure.justify-center
                 img.img250.p-4(src='@/assets/curso/tema4/flip4.svg', alt='imagen 1-2')
-            .tarjeta-flip__contenido.bgr_3.p-5.justify-content-center.align-items-center
-              p.text-center.text-white <b>4 Priorizado</b> <br><br/> Es la necesidad de priorizar elementos para hacer entregas progresivas y adecuadas.  
+            .tarjeta-flip__contenido.bgr_3.p-4.justify-content-center.align-items-center
+              p.text-left.text-white <b>4 Priorizado</b> <br><br/> Es la necesidad de priorizar elementos para hacer entregas progresivas y adecuadas.  
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg.order-2.order-lg-1.p-md-0.esptop

@@ -23,6 +23,7 @@
       .col-lg-4.mb-3
         a.picture.indicador__container(@click="modal1 = true")
           img(src='@/assets/curso/tema2/roles.svg', alt='Ubicación de mercancía', style="width: 263px").center
+          .indicador--click(v-if="mostrarIndicador")
         .col
           a.lnk(@click="modal1 = true") 
         ModalA(:abrir-modal.sync="modal1")
@@ -69,74 +70,74 @@
 
     
     .row.mb-5.justify-content-center
-      .col-lg-6
-        .row.mb-5(data-aos="fade-up")
-          .col-md-12.mb-4.mb-md-0
+      .col-lg-5
+        .row.center(data-aos="fade-up")
+          .col-md-12
             LineaTiempoD.color-primario.text-bold
-              p.text-small(numero="1" titulo="Roles").m-2
+              h5.text-small(numero="1" titulo="Roles")
                 ul.lista-ul
-                  p <i>Scrum team</i> (ST) se forma por:
+                  h6 <i>Scrum team</i> (ST) se forma por:
                   li 
                     i.fas.fa-users
-                    span <i>Product Owner (PO)</i>
+                    h6 <i>Product Owner (PO)</i>
                   li 
                     i.fas.fa-users
-                    span <i>Scrum Master (SM)</i>
+                    h6 <i>Scrum Master (SM)</i>
                   li 
                     i.fas.fa-users
-                    span <i>Development Team (DT)</i>
+                    h6 <i>Development Team (DT)</i>
                   li 
                     i.fas.fa-users
-                    span <i>Stakeholders</i>
+                    h6 <i>Stakeholders</i>
 
-              p.text-small(numero="2" titulo="Artefactos").m-2
+              h5.text-small(numero="2" titulo="Artefactos")
                 ul.lista-ul
-                  h5 Del proyecto: 
+                  h6 Del proyecto: 
                   li 
                     i.fas.fa-users
-                    span <i>Product Backlog (PB)</i>
+                    h6 <i>Product Backlog (PB)</i>
                   li 
                     i.fas.fa-users
-                    span <i>Sprint Backlog (SB)</i>
+                    h6 <i>Sprint Backlog (SB)</i>
                   li 
                     i.fas.fa-users
-                    span <i>Graphs</i>
+                    h6 <i>Graphs</i>
                   li 
                     i.fas.fa-users
-                    span <i>Impediments bBacklogs (IB)</i>
+                    h6 <i>Impediments bBacklogs (IB)</i>
                   br
-                  h5 Del sprint:
+                  h6 Del sprint:
                   li 
                     i.fas.fa-users
-                    span <i>Scrum board</i>
+                    h6 <i>Scrum board</i>
                   li 
                     i.fas.fa-users
-                    span <i>Incidence backlog</i>
+                    h6 <i>Incidence backlog</i>
                   li 
                     i.fas.fa-users
-                    span <i>Parking backlog</i>
+                    h6 <i>Parking backlog</i>
 
 
-              p.text-small(numero="2" titulo="Actividades").m-2
+              h5.text-small(numero="2" titulo="Actividades")
                 ul.lista-ul
                   li 
                     i.fas.fa-users
-                    span <i>Sprint 0 o first sprint (primer sprint).</i>
+                    h6 <i>Sprint 0 o first sprint (primer sprint).</i>
                   li 
                     i.fas.fa-users
-                    span <i>Sprint.</i>
+                    h6 <i>Sprint.</i>
                   li 
                     i.fas.fa-users
-                    span <i>Sprint planning (planificación del sprint).</i>
+                    h6 <i>Sprint planning (planificación del sprint).</i>
                   li 
                     i.fas.fa-users
-                    span <i>Daily meeting (reunión diaria).</i>
+                    h6 <i>Daily meeting (reunión diaria).</i>
                   li 
                     i.fas.fa-users
-                    span <i>Sprint review (revisión del sprint)</i>
+                    h6 <i>Sprint review (revisión del sprint)</i>
                   li 
                     i.fas.fa-users
-                    span <i>Sprint retrospective (retrospectiva del sprint).</i>
+                    h6 <i>Sprint retrospective (retrospectiva del sprint).</i>
       .col-lg-5  
         img(src='@/assets/curso/tema2/lineadetiempo.png' style="width: 472px")(data-aos="fade-up")
 
@@ -148,31 +149,31 @@
           img(src='@/assets/curso/tema2/img1.svg', alt='Texto que describa la imagen')
 
       .tarjeta.bg-amarillo-claro.p-4(x="19.7%" y="9.8%" numero="+")
-          .h5.mb-3 1.<i>Daily meetings</i> o reuniones diarias
+          .h5.mb-3 1.  <i>Daily meetings</i> o reuniones diarias
           p Para cada <i>sprint</i>, <b><i>el scrum team</i></b> extrae las historias de usuario en tareas, y mientras dure el <i>sprint</i> se llevarán reuniones diarias <b><i>(daily meetings)</i></b>, en las cuales el equipo se sincroniza y avanza construyendo tareas. 
 
       .tarjeta.bg-amarillo-claro.p-4(x="65.5%" y="3%" numero="+")
-          .h5.mb-3 2.Finalización del <i>sprint</i>
+          .h5.mb-3 2.   Finalización del <i>sprint</i>
           p El proceso finaliza con una reunión de presentación de los resultados al usuario (<b><i>sprint review</i></b>) que aceptará o no el producto.
 
       .tarjeta.bg-amarillo-claro.p-4(x="97%" y="32.4%" numero="+")
-          .h5.mb-3 3.Retrospectiva o <i>Scrum retrospective</i>
+          .h5.mb-3 3.   Retrospectiva o <i>Scrum retrospective</i>
           p Luego, el <b><i>development team</i></b> (equipo de desarrollo) y el <b><i>Scrum master</i></b> (entrenador o facilitador), se reúnen; la intención de esta reunión se conoce como <b><i>Scrum retrospective</i></b> y en ella se busca identificar mejoras en los procesos internos e iniciar, de nuevo, con un <i>sprint</i>.
       
       .tarjeta.bg-amarillo-claro.p-4(x="91.5%" y="73.7%" numero="+")
-          .h5.mb-3 4.Realizar, ordenar, priorizar, documentar
+          .h5.mb-3 4.   Realizar, ordenar, priorizar, documentar
           p Para lograr identificar las grandes divisiones del trabajo por desarrollar en un proyecto, se debe realizar, ordenar priorizar y documentar. En el desarrollo de los métodos tradicionales se comete el error de confiar en que no habrá cambios, estructuras o requisitos nuevos. 
       
       .tarjeta.bg-amarillo-claro.p-4(x="62%" y="97%" numero="+")
-          .h5.mb-3 5.Product backlog / potencialidad de Scrum
+          .h5.mb-3 5.   Product backlog / potencialidad de Scrum
           p Con la potencialidad que representa Scrum, se elaboran las nuevas peticiones o requisitos de manera flexible, configurable y dinámica, denominada en este caso como <b><i>Product Backlog (PB)</i></b>. 
       
       .tarjeta.bg-amarillo-claro.p-4(x="17.4%" y="86%" numero="+")
-          .h5.mb-3 6.Inicio del ciclo de vida
+          .h5.mb-3 6.   Inicio del ciclo de vida
           p El ciclo de vida de un proyecto Scrum, inicia cuando el <b><i>Product Owner (PO)</i></b>, crea e informa sobre el <b><i>Product Backlog (PB)</i></b>. 
       
       .tarjeta.bg-amarillo-claro.p-4(x="2.9%" y="45.7%" numero="+")
-          .h5.mb-3 7.Configuración del product backlog
+          .h5.mb-3 7.  Configuración del product backlog
           p El <b><i>Product Backlog (PB)</i></b> se forma por las historias de usuario definidas que ayudan a identificar, de manera clara y precisa, la funcionalidad que se requiere para el producto. 
 
 
@@ -183,6 +184,8 @@
 export default {
   name: 'Tema2',
   data: () => ({
+    mostrarIndicador: true,
+    indicadorModalA: true,
     modal1: false,
     modal2: false,
     modal3: false,
