@@ -74,70 +74,70 @@
         .row.center(data-aos="fade-up")
           .col-md-12
             LineaTiempoD.color-primario.text-bold
-              h5.text-small(numero="1" titulo="Roles")
+              h4.text-small(numero="1" titulo="Roles")
                 ul.lista-ul
-                  h5 <i>Scrum team</i> (ST) se forma por:
+                  h4 <i>Scrum team</i> (ST) se forma por:
                   li 
                     i.fas.fa-users
-                    h5 <i>Product Owner (PO)</i>
+                    p <i>Product Owner (PO)</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Scrum Master (SM)</i>
+                    p <i>Scrum Master (SM)</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Development Team (DT)</i>
+                    p <i>Development Team (DT)</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Stakeholders</i>
+                    p <i>Stakeholders</i>
 
               h5.text-small(numero="2" titulo="Artefactos")
                 ul.lista-ul
-                  h5 Del proyecto: 
+                  h4 Del proyecto: 
                   li 
                     i.fas.fa-users
-                    h5 <i>Product Backlog (PB)</i>
+                    p <i>Product Backlog (PB)</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Sprint Backlog (SB)</i>
+                    p <i>Sprint Backlog (SB)</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Graphs</i>
+                    p <i>Graphs</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Impediments bBacklogs (IB)</i>
+                    p <i>Impediments bBacklogs (IB)</i>
                   br
-                  h5 Del sprint:
+                  h4 Del sprint:
                   li 
                     i.fas.fa-users
-                    h5 <i>Scrum board</i>
+                    p <i>Scrum board</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Incidence backlog</i>
+                    p <i>Incidence backlog</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Parking backlog</i>
+                    p <i>Parking backlog</i>
 
 
-              h5.text-small(numero="2" titulo="Actividades")
+              h4.text-small(numero="2" titulo="Actividades")
                 ul.lista-ul
                   li 
                     i.fas.fa-users
-                    h5 <i>Sprint 0 o first sprint (primer sprint).</i>
+                    p <i>Sprint 0 o first sprint (primer sprint).</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Sprint.</i>
+                    p <i>Sprint.</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Sprint planning (planificación del sprint).</i>
+                    p <i>Sprint planning (planificación del sprint).</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Daily meeting (reunión diaria).</i>
+                    p <i>Daily meeting (reunión diaria).</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Sprint review (revisión del sprint)</i>
+                    p <i>Sprint review (revisión del sprint)</i>
                   li 
                     i.fas.fa-users
-                    h5 <i>Sprint retrospective (retrospectiva del sprint).</i>
+                    p <i>Sprint retrospective (retrospectiva del sprint).</i>
       .col-lg-5  
         img(src='@/assets/curso/tema2/lineadetiempo.png' style="width: 472px")(data-aos="fade-up")
 
