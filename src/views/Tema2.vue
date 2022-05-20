@@ -118,7 +118,7 @@
                     p <i>Parking backlog</i>
 
 
-              h4.text-small(numero="2" titulo="Actividades")
+              h4.text-small(numero="3" titulo="Actividades")
                 ul.lista-ul
                   li 
                     i.fas.fa-users
