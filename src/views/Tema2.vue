@@ -70,10 +70,10 @@
 
     
     .row.mb-5.justify-content-center
-      .col-lg-5
+      .col-lg-5.z
         .row.center(data-aos="fade-up")
-          .col-md-12
-            LineaTiempoD.color-primario.text-bold
+          .col-md-12.z
+            LineaTiempoD.color-primario.text-bold.z
               h4.text-small(numero="1" titulo="Roles")
                 ul.lista-ul
                   h4 <i>Scrum team</i> (ST) se forma por:
