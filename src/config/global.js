@@ -155,12 +155,12 @@ export default {
         '(revisión) se realiza al final del <i>Sprint</i>, sacando conclusiones y si hubo cambios.',
     },
     {
-      termino: '<<i>Scrum</i>',
+      termino: '<i>Scrum</i>',
       significado:
         'en el <i>rugby</i>, es un tipo de formación fija, cuya función es disputar y poner el balón en juego; en referencia al Scrum, es la idea de avanzar en equipo, enviando balón hacia atrás para luego avanzar.',
     },
     {
-      termino: '<i<Sprint</i>',
+      termino: '<i>Sprint</i>',
       significado:
         '(pique, carrera) intervalo de un proceso, hecho o terminado y entregable en Scrum.',
     },
