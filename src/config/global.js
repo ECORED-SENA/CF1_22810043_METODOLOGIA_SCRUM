@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Entidades Scrum',
+            titulo: 'Premisas Scrum',
             hash: 't_1_1',
           },
           {
@@ -212,6 +212,11 @@ export default {
         cargo: 'Diseñador Instruccional',
         centro:
           'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Andres Felipe Velandia Espitia ',
+        cargo: 'Asesor Metodológico',
+        centro: 'Regional Distrito Capital -Centro de Diseño y Metrologia',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',

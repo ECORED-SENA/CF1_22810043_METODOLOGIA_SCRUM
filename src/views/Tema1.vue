@@ -99,7 +99,7 @@
         p  <b>3. <i>Check</i>, comprueba:</b> ¿se pudo actuar frente a lo planeado?. 
     
       .tarjeta(style='background-color: #BAEAE8').p-4(x="72.5%" y="86%" numero="4")
-        p  <b>4. <i>Act</i>,actúa:</b> ¿cómo mejoramos para el siguiente ciclo?.  
+        p  <b>4. <i>Act</i>, actúa:</b> ¿cómo mejoramos para el siguiente ciclo?.  
     
     .row
       .col-md-12
