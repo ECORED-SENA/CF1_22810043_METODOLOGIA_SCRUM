@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Scrum, descripciones y características',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz cualificará su participación en equipos de trabajo en el marco del desarrollo de software con la metodología Scrum. Se afianzará en agilidad y entrega de productos en iteraciones cortas de tiempo, simplificación de labores, roles Scrum, uso de artefactos Scrum y sabrá dar cuenta de los aspectos teóricos y conceptuales esta metodología.',
+      'Con el estudio de este componente, el aprendiz cualificará su participación en equipos de trabajo en el marco del desarrollo de <i>software</i> con la metodología Scrum. Se afianzará en agilidad y entrega de productos en iteraciones cortas de tiempo, simplificación de labores, roles Scrum, uso de artefactos Scrum y sabrá dar cuenta de los aspectos teóricos y conceptuales esta metodología.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Premisas Scrum',
+            titulo: 'Entidades Scrum',
             hash: 't_1_1',
           },
           {
@@ -64,13 +64,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Product backlog',
+            titulo: '<i>Product backlog</i>',
             hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Sprint backlog',
+            titulo: '<i>Sprint backlog</i>',
             hash: 't_4_2',
           },
         ],
@@ -135,32 +135,32 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Board',
+      termino: '<i>Board</i>',
       significado:
         '(tablero) en Scrum es la herramienta visual donde se mantiene la comunicación constante, fortaleciendo las actividades de los procesos.',
     },
     {
-      termino: 'Development',
+      termino: '<i>Development</i>',
       significado:
         '(desarrollo) conjunto de profesionales que desarrollan el producto con ciertas habilidades técnicas.',
     },
     {
-      termino: 'Planning',
+      termino: '<i>Planning</i>',
       significado:
-        '(planificación) reunión que se da al inicio de cada Sprint donde participa el equipo completo de Scrum, y donde se define lo que se trabajará durante el siguiente Sprint.',
+        '(planificación) reunión que se da al inicio de cada <i>Sprint</i> donde participa el equipo completo de Scrum, y donde se define lo que se trabajará durante el siguiente <i>Sprint</i>.',
     },
     {
-      termino: 'Review',
+      termino: '<i>Review</i>',
       significado:
-        '(revisión) se realiza al final del Sprint, sacando conclusiones y si hubo cambios.',
+        '(revisión) se realiza al final del <i>Sprint</i>, sacando conclusiones y si hubo cambios.',
     },
     {
-      termino: 'Scrum',
+      termino: '<<i>Scrum</i>',
       significado:
-        'en el rugby, es un tipo de formación fija, cuya función es disputar y poner el balón en juego; en referencia al Scrum, es la idea de avanzar en equipo, enviando balón hacia atrás para luego avanzar.',
+        'en el <i>rugby</i>, es un tipo de formación fija, cuya función es disputar y poner el balón en juego; en referencia al Scrum, es la idea de avanzar en equipo, enviando balón hacia atrás para luego avanzar.',
     },
     {
-      termino: 'Sprint',
+      termino: '<i<Sprint</i>',
       significado:
         '(pique, carrera) intervalo de un proceso, hecho o terminado y entregable en Scrum.',
     },
@@ -202,16 +202,16 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: ' ',
-        cargo: 'Soporte organizacional',
+        nombre: 'Luis Eyder Ortiz',
+        cargo: 'Experto Temático',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Regional Cauca - Centro de Teleinformática y Producción Industrial',
       },
       {
-        nombre: ' ',
-        cargo: 'Diseño web',
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
       },
       {
         nombre: 'Zuleidy María Ruíz Torres',
@@ -291,20 +291,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'José Gabriel Ortiz Abella',
         cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: '',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },

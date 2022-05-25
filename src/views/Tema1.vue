@@ -27,7 +27,7 @@
           
             .col-lg-7.align-items-center
               h5.aling-1 Origen del término
-                p.mt-3 Hace referencia, en castellano, a decir “melé”, referenciando una formación característica del rugby o fútbol americano.
+                p.mt-3 Hace referencia, en castellano, a decir “melé”, referenciando una formación característica del <i>rugby</i> o fútbol americano.
             
           .row.fondo-slyder_2
             .col-lg-7.align-items-center
@@ -49,8 +49,8 @@
             
           .row.fondo-slyder_2
             .col-lg-7.align-items-center
-              h5.aling-1 Proyectos de desarrollo de software
-                p.mt-3 Scrum se trata de un marco de trabajo para desarrollo ágil de software, aunque actualmente esta metodología se expande a otras áreas, dada su eficacia, facilidad de aplicación y utilidad práctica. 
+              h5.aling-1 Proyectos de desarrollo de <i>software</i>
+                p.mt-3 Scrum se trata de un marco de trabajo para desarrollo ágil de <i>software</i>, aunque actualmente esta metodología se expande a otras áreas, dada su eficacia, facilidad de aplicación y utilidad práctica. 
             
             .col-lg-5.col-7.center
               figure
@@ -63,7 +63,7 @@
           .bloque-texto-g__texto.p-4
             p(data-aos="fade-down").mb-0 La metodología Scrum, por definición, es el proceso donde se aplican buenas prácticas, trabajando colaborativamente. Con ella se logra el desarrollo del proyecto por medio de fases o etapas en las que no se avanza si no se termina la fase en la que se está trabajando. 
 
-    p.til.mb-5 Ahora bien, estas son los tres pilares de proceso en que se basa la metodología Scrum:
+    p.til.mb-5 Ahora bien, estos son los tres pilares de proceso en que se basa la metodología Scrum:
     
     .bg_grad-02
       ImagenInfografica.color-acento-botones.mb-5.col-md-8.center.col-12(data-aos="fade-down")
@@ -90,16 +90,16 @@
         figure
           img(src='@/assets/curso/tema1/vec3.svg', alt='Texto que describa la imagen')
       .tarjeta(style='background-color: #BAEAE8').p-4(x="34.5%" y="20.5%" numero="1")
-        p <b>1. Plan, planifica:</b> ¿qué hacer?, ¿cómo hacerlo?
+        p <b>1. <i>Plan</i>, planifica:</b> ¿qué hacer?, ¿cómo hacerlo?.
    
       .tarjeta(style='background-color: #BAEAE8').p-4(x="73.5%" y="20.5%" numero="2")
-        p  <b>2. Do, ejecuta:</b> realizar lo planificado.
+        p  <b>2. <i>Do</i>, ejecuta:</b> realizar lo planificado.
            
       .tarjeta(style='background-color: #BAEAE8').p-4(x="33%" y="86%" numero="3")
-        p  <b>3. Check, comprueba:</b> ¿se pudo actuar frente a lo planeado? 
+        p  <b>3. <i>Check</i>, comprueba:</b> ¿se pudo actuar frente a lo planeado?. 
     
       .tarjeta(style='background-color: #BAEAE8').p-4(x="72.5%" y="86%" numero="4")
-        p  <b>4. Act (actúa):</b> ¿cómo mejoramos para el siguiente ciclo?  
+        p  <b>4. <i>Act</i>,actúa:</b> ¿cómo mejoramos para el siguiente ciclo?.  
     
     .row
       .col-md-12
@@ -110,7 +110,7 @@
         ModalA(:abrir-modal.sync="modal1")
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
-              p <i>Scrum</i>, además de buscar resultados apropiados y rápidos, también trata de lograr que los integrantes del equipo, en el desarrollo del proyecto, sientan responsabilidad y satisfacción.
+              p Scrum, además de buscar resultados apropiados y rápidos, también trata de lograr que los integrantes del equipo, en el desarrollo del proyecto, sientan responsabilidad y satisfacción.
             
             .col-md-6
               figure
@@ -179,7 +179,7 @@
 
 
     #t_1_2.titulo-segundo.color-acento-contenido.mb-4
-      h2 1.2.	Premisas Scrum
+      h2 1.2.	Entidades Scrum
 
     .row.mb-5(data-aos="fade-right")
       .col.col-12.col-lg-6.position-relative
@@ -203,7 +203,7 @@
 
         .tarjeta(style='background-color: #BAEAE8').p-4(x="34.4%" y="26.2%" numero="+")
           .h5.mb-2 Historias de usuario
-          p Es donde se define el lenguaje del negocio que hace el <i>product owner (PO)</i> de los requisitos o necesidades para realizar el trabajo. Estos requisitos se desintegran en unidades más pequeñas para ejecutarlas.
+          p Es donde se define el lenguaje del negocio que hace el <i>product owner</i> (PO) de los requisitos o necesidades para realizar el trabajo. Estos requisitos se desintegran en unidades más pequeñas para ejecutarlas.
 
         .tarjeta(style='background-color: #BAEAE8').p-4(x="80.2%" y="59.5%" numero="+")
           .h5.mb-2 Épicas
@@ -231,7 +231,7 @@ export default {
       {
         titulo: 'Herramientas',
         texto:
-          'Existen diferentes tipos de herramientas según el tipo de proyecto. Las más utilizadas son el uso de paneles con etiquetas adhesivas o post-it. Por lo general, se utiliza el <i>backlog</i>.',
+          'Existen diferentes tipos de herramientas según el tipo de proyecto. Las más utilizadas son el uso de paneles con etiquetas adhesivas o <i>post-it</i>. Por lo general, se utiliza el <i>backlog</i>.',
         imagen: require('@/assets/curso/tema1/slyder2.jpg'),
       },
       {

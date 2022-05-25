@@ -59,14 +59,14 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
               h5 Los artefactos
-              p Los artefactos conforman el equipo de herramientas con el cual se ejecuta y se controla el proyecto, basado en listas de control y el Scrum board.
+              p Los artefactos conforman el equipo de herramientas con el cual se ejecuta y se controla el proyecto, basado en listas de control y el <i>Scrum board.</i>
               
             .col-md-6
               figure
                 img(src='@/assets/curso/tema2/3.png',)
 
 
-    p.mb-5 Conociendo lo anterior, como elementos fundamentales del ciclo de vida, Scrum proponen los siguientes roles, actividades y artefactos:
+    p.mb-5 Conociendo lo anterior, como elementos fundamentales del ciclo de vida, Scrum propone los siguientes roles, actividades y artefactos:
 
     
     .row.mb-5.justify-content-center
@@ -104,7 +104,7 @@
                     p <i>Graphs</i>
                   li 
                     i.fas.fa-users
-                    p <i>Impediments bBacklogs (IB)</i>
+                    p <i>Impediments Backlogs (IB)</i>
                   br
                   h4 Del sprint:
                   li 
@@ -122,22 +122,22 @@
                 ul.lista-ul
                   li 
                     i.fas.fa-users
-                    p <i>Sprint 0 o first sprint (primer sprint).</i>
+                    p <i>Sprint 0 o first sprint</i> (primer <i>sprint</i>).
                   li 
                     i.fas.fa-users
                     p <i>Sprint.</i>
                   li 
                     i.fas.fa-users
-                    p <i>Sprint planning (planificación del sprint).</i>
+                    p <i>Sprint planning</i> (planificación del <i>sprint</i>).
                   li 
                     i.fas.fa-users
-                    p <i>Daily meeting (reunión diaria).</i>
+                    p <i>Daily meeting</i> (reunión diaria).
                   li 
                     i.fas.fa-users
-                    p <i>Sprint review (revisión del sprint)</i>
+                    p <i>Sprint review</i> (revisión del <i>sprint</i>)
                   li 
                     i.fas.fa-users
-                    p <i>Sprint retrospective (retrospectiva del sprint).</i>
+                    p <i>Sprint retrospective</i> (retrospectiva del <i>sprint</i>).
       .col-lg-5  
         img(src='@/assets/curso/tema2/lineadetiempo.png' style="width: 472px")(data-aos="fade-up")
 
@@ -162,10 +162,10 @@
       
       .tarjeta.bg-amarillo-claro.p-4(x="91.5%" y="73.7%" numero="+")
           .h5.mb-3 4.   Realizar, ordenar, priorizar, documentar
-          p Para lograr identificar las grandes divisiones del trabajo por desarrollar en un proyecto, se debe realizar, ordenar priorizar y documentar. En el desarrollo de los métodos tradicionales se comete el error de confiar en que no habrá cambios, estructuras o requisitos nuevos. 
+          p Para lograr identificar las grandes divisiones del trabajo por desarrollar en un proyecto, se debe realizar, ordenar, priorizar y documentar. En el desarrollo de los métodos tradicionales se comete el error de confiar en que no habrá cambios, estructuras o requisitos nuevos. 
       
       .tarjeta.bg-amarillo-claro.p-4(x="62%" y="97%" numero="+")
-          .h5.mb-3 5.   Product backlog / potencialidad de Scrum
+          .h5.mb-3 5.   <i>Product backlog</i> / potencialidad de Scrum
           p Con la potencialidad que representa Scrum, se elaboran las nuevas peticiones o requisitos de manera flexible, configurable y dinámica, denominada en este caso como <b><i>Product Backlog (PB)</i></b>. 
       
       .tarjeta.bg-amarillo-claro.p-4(x="17.4%" y="86%" numero="+")
@@ -173,7 +173,7 @@
           p El ciclo de vida de un proyecto Scrum, inicia cuando el <b><i>Product Owner (PO)</i></b>, crea e informa sobre el <b><i>Product Backlog (PB)</i></b>. 
       
       .tarjeta.bg-amarillo-claro.p-4(x="2.9%" y="45.7%" numero="+")
-          .h5.mb-3 7.  Configuración del product backlog
+          .h5.mb-3 7.  Configuración del <i>product backlog</i>
           p El <b><i>Product Backlog (PB)</i></b> se forma por las historias de usuario definidas que ayudan a identificar, de manera clara y precisa, la funcionalidad que se requiere para el producto. 
 
 
