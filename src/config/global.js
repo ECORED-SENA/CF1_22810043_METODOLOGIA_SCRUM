@@ -118,11 +118,6 @@ export default {
   referencias: [
     {
       referencia:
-        'Fernandomaranon.com. (2019). ¿Cuáles son las funciones del SCRUM master? Ferandomaranon.',
-      link: 'https://fernandomaranon.com/2018/09/01/el-rol-del-scrum-master',
-    },
-    {
-      referencia:
         ' Lasa, C., Álvarez, A. y Heras del D., R. (2017). Métodos ágiles: Scrum, Kanban, Lean. Difusora Larousse - Anaya Multimedia.',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/122933?page=1',
