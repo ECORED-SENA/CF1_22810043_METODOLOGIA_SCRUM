@@ -23,7 +23,7 @@
       .row.mb-5(data-aos="fade-left")
         .co-12.col-md-7.mb-4
           p Es la lista de funcionalidades o acciones que llevan a conformar los productos por construir. Se redacta con el idioma del cliente y se construye a través de las historias de usuario. El encargado de priorizar y detallar la información es el <i>Product Owner</i> (PO); sin embargo, puede estar apoyado por el equipo de producto, <i>stakeholders</i> o del equipo Scrum y, de esta manera, se crean las prioridades como equipo.
-          span Si se desea saber cuáles son las características del artefacto <i>product Backlog</i>, denominadas características de las tres C, por su denominación en inglés, se invitamos a conocerlas:
+          span Si se desea saber cuáles son las características del artefacto <i>product Backlog</i>, denominadas características de las tres C, por su denominación en inglés, lo invitamos a conocerlas:
         .col-12.col-md-5
           img(src='@/assets/curso/tema4/img2.png' alt='AvatarTop', style="width:483px; display:block; margin:1rem 0;").m-auto
         

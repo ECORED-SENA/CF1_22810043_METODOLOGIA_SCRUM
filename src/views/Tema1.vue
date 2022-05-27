@@ -174,7 +174,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-12
         .video
-          iframe(width="942" height="530" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/_HCapCOY8uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
 
 
